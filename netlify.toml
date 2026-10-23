@@ -1,0 +1,17 @@
+[build]
+  publish = "public"
+  command = "echo 'Sitio estático — sin paso de build'"
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["data/seed-products.json"]
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"

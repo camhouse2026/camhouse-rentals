@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Equipo | CamHouse Rentals</title>
+  <meta name="description" content="Renta de equipo audiovisual en El Salvador — CamHouse Rentals.">
+  <meta name="theme-color" content="#f3f3f3">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Inter+Tight:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <main class="container" id="product"><p style="padding:80px 0;color:var(--muted)">Cargando…</p></main>
+  <div id="app-footer"></div>
+  <script src="/assets/js/common.js"></script>
+  <script>
+  (async () => {
+    const { api, esc, money, icon, productCard, cart } = window.CH;
+    const root = document.getElementById("product");
+    const id = new URLSearchParams(location.search).get("id");
+    const products = await api.products().catch(() => []);
+    const p = products.find((x) => x.id === id);
+    if (!p) {
+      root.innerHTML = `<div class="empty" style="margin-top:60px"><b style="color:var(--ink)">Equipo no encontrado</b><br><a href="/#catalogo" style="text-decoration:underline">Volver al catálogo</a></div>`;
+      return;
+    }
+    document.title = `${p.name} | CamHouse Rentals`;
+    document.querySelector('meta[name="description"]').content = `Renta ${p.name} en El Salvador desde ${money(p.pricePerDay)} por día. ${p.description.slice(0, 110)}…`;
+
+    const video = (() => {
+      const u = p.videoUrl || "";
+      let m = u.match(/(?:youtu\.be\/|v=|embed\/)([\w-]{11})/);
+      if (m) return `https://www.youtube-nocookie.com/embed/${m[1]}`;
+      m = u.match(/vimeo\.com\/(\d+)/);
+      if (m) return `https://player.vimeo.com/video/${m[1]}`;
+      return "";
+    })();
+    const related = products.filter((x) => x.id !== p.id && x.category === p.category).sort((a, b) => (b.brand === p.brand) - (a.brand === p.brand)).slice(0, 4);
+    let qty = 1;
+
+    root.innerHTML = `
+      <nav class="breadcrumb"><a href="/">Inicio</a> / <a href="/?cat=${encodeURIComponent(p.category)}#catalogo">${esc(p.category)}</a> / <span>${esc(p.name)}</span></nav>
+      <div class="product">
+        <div>
+          <div class="gallery-main"><img id="mainImg" src="${esc(p.images[0] || "")}" alt="${esc(p.name)}"></div>
+          ${p.images.length > 1 ? `<div class="thumbs">${p.images.map((src, i) => `<button class="${i ? "" : "active"}" data-img="${esc(src)}" aria-label="Imagen ${i + 1}"><img src="${esc(src)}" alt="" loading="lazy"></button>`).join("")}</div>` : ""}
+          ${video ? `<div class="panel"><h3>Video</h3><div class="video-wrap"><iframe src="${video}" title="Video de ${esc(p.name)}" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div></div>` : ""}
+        </div>
+        <div class="product-info">
+          <span class="card-brand">${esc(p.brand)} · ${esc(p.subcategory || p.category)}</span>
+          <h1>${esc(p.name)}</h1>
+          <div class="product-price"><span class="price">${money(p.pricePerDay)}</span><span style="color:var(--muted)">por día</span></div>
+          <span class="badge ok">${icon("check", 'width="14" height="14"')} ${p.stock} ${p.stock === 1 ? "unidad" : "unidades"} en inventario</span>
+          ${p.requiresTech ? `<div class="alert info" style="margin-top:14px;display:flex;gap:10px;align-items:flex-start">${icon("wrench", 'width="16" height="16" style="flex:none;margin-top:2px"')}<span><b>Sale con técnico de CamHouse.</b> <span id="techNote">Este equipo se renta únicamente con soporte técnico de CHR para su cuidado y operación; el cargo del técnico se agrega por día a la cotización.</span></span></div>` : ""}
+          <div class="add-row">
+            <div class="qty"><button id="qMinus" aria-label="Menos">−</button><span id="qVal">1</span><button id="qPlus" aria-label="Más">+</button></div>
+            <button class="btn btn-lime" id="addBtn" data-add="${esc(p.id)}" data-qty="1">Agregar a cotización<span class="arrow">${icon("plus")}</span></button>
+          </div>
+          <p class="desc">${esc(p.description)}</p>
+          ${p.highlights?.length ? `<div class="panel"><h3>Características</h3><ul class="check-list">${p.highlights.map((h) => `<li>${esc(h)}</li>`).join("")}</ul></div>` : ""}
+          ${p.included?.length ? `<div class="panel"><h3>Incluye</h3><ul class="check-list">${p.included.map((h) => `<li>${esc(h)}</li>`).join("")}</ul></div>` : ""}
+        </div>
+      </div>
+      ${related.length ? `<section class="section"><div class="section-head"><div><span class="eyebrow">También en ${esc(p.category)}</span><h2 class="display" style="font-size:clamp(30px,3.6vw,44px)">Complete su kit</h2></div></div><div class="grid">${related.map(productCard).join("")}</div></section>` : ""}`;
+
+    if (p.requiresTech) api.settings().then((s) => { const el = document.getElementById("techNote"); if (el && s.techNote) el.textContent = s.techNote + (s.techFeePerDay ? ` Cargo del técnico: ${money(s.techFeePerDay)} por día.` : ""); });
+    const setQty = (n) => { qty = Math.max(1, Math.min(p.stock || 1, n)); document.getElementById("qVal").textContent = qty; document.getElementById("addBtn").dataset.qty = qty; };
+    document.getElementById("qMinus").onclick = () => setQty(qty - 1);
+    document.getElementById("qPlus").onclick = () => setQty(qty + 1);
+    root.addEventListener("click", (e) => {
+      const t = e.target.closest("[data-img]");
+      if (!t) return;
+      document.getElementById("mainImg").src = t.dataset.img;
+      root.querySelectorAll(".thumbs button").forEach((b) => b.classList.toggle("active", b === t));
+    });
+  })();
+  </script>
+</body>
+</html>

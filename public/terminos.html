@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cláusulas y condiciones de renta | CamHouse Rentals</title>
+  <meta name="theme-color" content="#f3f3f3">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Inter+Tight:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <main class="container">
+    <div class="doc" style="max-width:820px">
+      <span class="eyebrow">Condiciones de renta</span>
+      <h1 class="display" style="font-size:clamp(30px,4vw,44px);margin:10px 0 18px">Cláusulas y condiciones</h1>
+      <p style="color:var(--muted);font-size:14px">Estas cláusulas forman parte de toda cotización confirmada por CamHouse Rentals. El cliente las acepta al enviar su pre-cotización y, antes de retirar el equipo, firma electrónicamente un pagaré de garantía.</p>
+      <div class="clauses" id="clauses"><p style="color:var(--muted)">Cargando…</p></div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:28px">
+        <a href="/#catalogo" class="btn btn-dark">Volver al catálogo</a>
+        <button class="btn btn-ghost" onclick="window.print()">Imprimir / PDF</button>
+      </div>
+    </div>
+  </main>
+  <div id="app-footer"></div>
+  <script src="/assets/js/common.js"></script>
+  <script>
+    window.CH.api.settings().then((s) => {
+      const el = document.getElementById("clauses");
+      el.innerHTML = String(s.clauses || "").split(/\n\s*\n/).map((p) => `<p>${window.CH.esc(p.trim())}</p>`).join("");
+    });
+  </script>
+</body>
+</html>

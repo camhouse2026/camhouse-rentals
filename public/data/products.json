@@ -1,0 +1,2961 @@
+[
+ {
+  "id": "litepanels-gemini-2x1-soft-rgb-led-light-panel",
+  "name": "Litepanels Gemini 2x1 Soft RGB LED Light Panel",
+  "brand": "Litepanels",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "Este  Litepanels Gemini 2x1 Soft RGB LED Light Panel  es un dispositivo de aluminio de con tres modos de iluminación. El control de temperatura de color CCT tiene seis ajustes preestablecidos de fábrica en incrementos de 2,700 a 10,000 K. También hay seis ajustes preestablecidos para la temperatura de color definida por el usuario. El modo de color HSI le permite ajustar el tono, la saturación y la intensidad, mientras que el modo Gel le permite elegir entre una biblioteca de filtros de uso frecuente. Modo de efectos de iluminación que incluye simulación de TV, ráfaga de tono, paparazzi, estroboscopio, fuego, cuadrados, fuegos artificiales, luces de emergencia, pulso y luces de fiesta.",
+  "pricePerDay": 100,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-0.webp",
+   "/img/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-1.webp",
+   "/img/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-2.webp",
+   "/img/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-3.webp",
+   "/img/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-4.webp",
+   "/img/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-5.webp",
+   "/img/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-6.webp",
+   "/img/products/litepanels-gemini-2x1-soft-rgb-led-light-panel-7.webp"
+  ],
+  "highlights": [
+   "Salida: 9713 Lux a 3,3' (6000K)",
+   "2700 a 10 000 K CCT; Control RGB",
+   "Panel de 23,75 x 11; funcionamiento con CA/CC",
+   "CRI 97 | TLCI 97",
+   "Refrigeración por ventilador con modo silencioso",
+   "Controles a bordo",
+   "DMX opcional, DMX inalámbrico, Bluetooth"
+  ],
+  "included": [
+   "Litepanels Gemini 2x1 Soft RGB LED Light Panel",
+   "Cable de alimentación Litepanels para luz LED Gemini Stándar",
+   "Estuche de Transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=EiSbPy5pcOQ",
+  "order": 0,
+  "requiresTech": false
+ },
+ {
+  "id": "aputure-ls-300x-bi-color-led-monolight-v-mount",
+  "name": "Aputure LS 300x Bi-Color LED Monolight (V-Mount)",
+  "brand": "Aputure",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "La Aputure LS 300x Bi-Color LED Monolight (V-Mount) es la primera luz Aputure que va más allá de la iluminación bicolor tradicional al utilizar el rango CCT vari-white expandido de 2700-6500K, brindando tonos de tungsteno más cálidos y blancos más fríos que la luz del día. La luz brillante se puede atenuar desde una luz principal potente hasta una luz de relleno sutil y matizada, sin parpadeos en todo el rango de atenuación. Emite hasta 20 500 lux a 3,3' con su Hyper Reflector de 55° incluido. El controlador autorregulable de voltaje múltiple también funciona con baterías de montaje en V simples o dobles, adecuadas para iluminación en ubicaciones remotas.",
+  "pricePerDay": 75,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/aputure-ls-300x-bi-color-led-monolight-v-mount-0.webp",
+   "/img/products/aputure-ls-300x-bi-color-led-monolight-v-mount-1.webp",
+   "/img/products/aputure-ls-300x-bi-color-led-monolight-v-mount-2.webp",
+   "/img/products/aputure-ls-300x-bi-color-led-monolight-v-mount-3.webp",
+   "/img/products/aputure-ls-300x-bi-color-led-monolight-v-mount-4.webp",
+   "/img/products/aputure-ls-300x-bi-color-led-monolight-v-mount-5.webp",
+   "/img/products/aputure-ls-300x-bi-color-led-monolight-v-mount-6.webp",
+   "/img/products/aputure-ls-300x-bi-color-led-monolight-v-mount-7.webp"
+  ],
+  "highlights": [
+   "Para producción de cine, radiodifusión y vídeo",
+   "Salida: 20.500 Lux a 3,3' con reflector",
+   "2700-6500K CCT",
+   "Alimentación por CA o por batería",
+   "Control integrado, inalámbrico, DMX y mediante aplicación",
+   "CRI 96 | TLCI 96 | CQS 95 | SSI 85",
+   "Montura de accesorios Bowens S",
+   "9 efectos especiales preestablecidos"
+  ],
+  "included": [
+   "Aputure LS 300x Bi-Color LED Monolight (V-Mount)",
+   "Caja de control e Hiperreflector (55°)",
+   "Cable de alimentación de CA Neutrik powerCON (19,7')",
+   "Cable con conector XLR macho a hembra de 5 pines (9,8')",
+   "Gancho de alivio de cable",
+   "Control remoto VA RC1+",
+   "Abrazadera de liberación rápida para relámpagos",
+   "Estuche de transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=jgNbQK3Ndcg",
+  "order": 1,
+  "requiresTech": false
+ },
+ {
+  "id": "aputure-fresnel-2x-attachment",
+  "name": "Aputure Fresnel 2X Attachment",
+  "brand": "Aputure",
+  "category": "Iluminación",
+  "subcategory": "Accesorios de iluminación",
+  "description": "Fabricado exclusivamente para Aputure LS C120d, LS C120d II, LS C300d, el accesorio Fresnel 2X ofrece una dispersión del haz que varía de 12 a 40 grados. Un subproducto valioso de este diseño mejorado es su capacidad para intensificar la salida de luz. El LS 120d II de Aputure, por ejemplo, es capaz de emitir hasta 14 veces su potencia estándar gracias al diseño de lente dual del Fresnel. El Fresnel 2X viene con un estuche acolchado para guardarlo y transportarlo.",
+  "pricePerDay": 6,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/aputure-fresnel-2x-attachment-0.webp",
+   "/img/products/aputure-fresnel-2x-attachment-1.webp",
+   "/img/products/aputure-fresnel-2x-attachment-2.webp",
+   "/img/products/aputure-fresnel-2x-attachment-3.webp",
+   "/img/products/aputure-fresnel-2x-attachment-4.webp",
+   "/img/products/aputure-fresnel-2x-attachment-5.webp",
+   "/img/products/aputure-fresnel-2x-attachment-6.webp",
+   "/img/products/aputure-fresnel-2x-attachment-7.webp"
+  ],
+  "highlights": [
+   "Diámetro de lente de 6",
+   "El diseño de doble lente aumenta la salida",
+   "Extensión del haz variable de 12 a 40°",
+   "Exclusivamente para LS C120d, C120dII, C300d",
+   "La C120d II es hasta 14 veces más brillante con lente"
+  ],
+  "included": [
+   "Accesorio Fresnel 2X de Aputure",
+   "Estuche blando"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=Sz6G1bQgU98",
+  "order": 2,
+  "requiresTech": false
+ },
+ {
+  "id": "nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit",
+  "name": "Nanlite PavoTube 15C RGB LED Tube Light (2´, 4-kit)",
+  "brand": "Nanlite",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "Versatilidad precisa: con un CRI líder en su clase de 97 y TLCI de 98, un rango CCT ampliado de 2700K-7500K y un amplio ajuste G/M de +/-150, PavoTube II 15C es altamente preciso y adaptable. Control amplio: cuenta con controles integrados y una pantalla OLED, puedes controlar con tu teléfono a través de Bluetooth con la aplicación gratuita NANLINK para iOS y Android, tiene un puerto DMX/RDM de metal de bloqueo y 2.4G. Batería: se puede cargar con el adaptador de CA en la tapa final o el puerto USB-C en la parte posterior, obtiene más de 2 horas de vida útil al 100% de brillo y 14 horas al 1%.",
+  "pricePerDay": 60,
+  "stock": 4,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-0.webp",
+   "/img/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-1.webp",
+   "/img/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-2.webp",
+   "/img/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-3.webp",
+   "/img/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-4.webp",
+   "/img/products/nanlite-pavotube-15c-rgb-led-tube-light-2-4-kit-5.webp"
+  ],
+  "highlights": [
+   "Salida: 423 Lux a 3,3' (5600K)",
+   "Temperatura de color (CCT) de 2700 a 7500 K; modo RGB",
+   "Control integrado, inalámbrico, DMX y mediante aplicación",
+   "CRI 97 | TLCI 98 | TM-30 94 y 101",
+   "15 efectos especiales preestablecidos",
+   "Batería recargable incorporada; alimentación de CA",
+   "Montaje T12 o 1/4-20",
+   "Funciona con viseras y rejillas opcionales"
+  ],
+  "included": [
+   "Nanlite PavoTube 15C RGB LED Tube Light (2')",
+   "Clip de policarbonato transparente con dos receptores de 1/4-20",
+   "2 x alambre de seguridad de acero",
+   "Cable de alimentación (9,9')",
+   "Adaptador de corriente con cable (3,28')",
+   "Bolsa de transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=9mE6Y-7fDjQ",
+  "order": 3,
+  "requiresTech": false
+ },
+ {
+  "id": "nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit",
+  "name": "Nanlite PavoTube 30 C RGB LED Tube Light (4´, 4-kit)",
+  "brand": "Nanlite",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "Versatilidad precisa: con un CRI líder en su clase de 97 y TLCI de 98, un rango CCT ampliado de 2700K-7500K y un amplio ajuste G/M de +/-150, Nanlite PavoTube 30C RGB LED Tube Light (4') es altamente preciso y adaptable. Control amplio: cuenta con controles integrados y una pantalla OLED, puedes controlar con tu teléfono a través de Bluetooth con la aplicación gratuita NANLINK para iOS y Android, tiene un puerto DMX/RDM de metal de bloqueo y 2.4G. Batería: se puede cargar con el adaptador de CA en la tapa final o el puerto USB-C en la parte posterior, obtiene más de 2.5 horas de vida al 100% de brillo y 29 horas al 1%.",
+  "pricePerDay": 90,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-0.webp",
+   "/img/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-1.webp",
+   "/img/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-2.webp",
+   "/img/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-3.webp",
+   "/img/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-4.webp",
+   "/img/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-5.webp",
+   "/img/products/nanlite-pavotube-30-c-rgb-led-tube-light-4-4-kit-6.webp"
+  ],
+  "highlights": [
+   "Salida: 647 Lux a 3,3' (5600K)",
+   "Temperatura de color (CCT) de 2700 a 7500 K; modo RGB",
+   "Control integrado, inalámbrico, DMX y mediante aplicación",
+   "CRI 97 | TLCI 98 | TM-30 94 y 101",
+   "15 efectos especiales preestablecidos",
+   "Batería recargable incorporada; alimentación de CA",
+   "Montaje T12 o 1/4-20",
+   "Funciona con viseras y rejillas opcionales"
+  ],
+  "included": [
+   "Nanlite PavoTube 30C RGB LED Tube Light (4')",
+   "Clip de policarbonato transparente Nanlite PavoTube con dos receptores de 1/4-20",
+   "2 x alambre de seguridad de acero",
+   "Cable de alimentación (9,9')",
+   "Adaptador de corriente con cable",
+   "Bolsa de Transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=hW-jL78HY5g",
+  "order": 4,
+  "requiresTech": false
+ },
+ {
+  "id": "double-bank-t12-led-tube-gooseneck-mount-with-58-receiver",
+  "name": "Double Bank T12 LED Tube Gooseneck Mount with 58 Receiver",
+  "brand": "Double",
+  "category": "Iluminación",
+  "subcategory": "Accesorios de iluminación",
+  "description": "El soporte de cuello de cisne PavoTube Double Bank de Nanlite es una solución de agarre simple y eficaz para montar luces LED de tubo PavoTube 15C o 30C en un solo soporte de iluminación a través de un receptor estándar de 5/8. Con una extensión de cuello de cisne combinada con una rótula giratoria para articulación, el Quad Bank maximiza la versatilidad de los PavoTubes en el set. La extensión de cuello de cisne combinada con una rótula giratoria maximiza la versatilidad de los PavoTubes al permitir orientarlos en casi cualquier posición.\nMóntelo en cualquier soporte con un perno de 5/8, luego apriételo firmemente con una perilla grande y moleteada. Los clips T12 recubiertos de goma evitan daños accidentales al montar o desmontar los tubos. Diseñado para usarse con Nanlite PavoTubes, el Double Bank es compatible con otras luces de tubo estilo T12.",
+  "pricePerDay": 10,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-0.webp",
+   "/img/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-1.webp",
+   "/img/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-2.webp",
+   "/img/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-3.webp",
+   "/img/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-4.webp",
+   "/img/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-5.webp",
+   "/img/products/double-bank-t12-led-tube-gooseneck-mount-with-58-receiver-6.webp"
+  ],
+  "highlights": [
+   "Monte 1 o 2 tubos LED PavoTube 15C o 30C",
+   "Receptor de soporte estándar de 5/8",
+   "Rótula giratoria para articulación",
+   "Clips para tubos LED T12 recubiertos de goma"
+  ],
+  "included": [
+   "Double Bank T12 LED Tube Gooseneck Mount with 58 Receiver"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=V7YkxZCVXf8",
+  "order": 5,
+  "requiresTech": false
+ },
+ {
+  "id": "astera-ax1-pixel-tube-rgb-led-tube-light-4-pies",
+  "name": "Astera AX1 Pixel Tube RGB LED Tube Light (4 pies)",
+  "brand": "Astera",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "El tubo de luz LED RGB Pixel Tube AX1 de Astera emite hasta 253 lux a 3,3' (5500K) con una batería integrada que es adecuada para una variedad de usos en producciones de cine, teatro y eventos. El AX1 cuenta con 16 emisores LED direccionables individualmente en un tubo de 3,4' de largo que puede montar en un set, en un soporte, colgar de una rejilla o incluso sostenerlo con la mano desnuda. El AX1 tiene una clasificación CRI/TLCI de 88, lo que proporciona una buena reproducción del color. El dispositivo se puede utilizar para crear una luz suave y directa sobre el sujeto o como luz de acento, así como un elemento de diseño en la ubicación o el set. El dispositivo cuenta con cinco modos de curva de atenuación diferentes.",
+  "pricePerDay": 175,
+  "stock": 1,
+  "active": true,
+  "featured": true,
+  "images": [
+   "/img/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-0.webp",
+   "/img/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-1.webp",
+   "/img/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-2.webp",
+   "/img/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-3.webp",
+   "/img/products/astera-ax1-pixel-tube-rgb-led-tube-light-4-pies-4.webp"
+  ],
+  "highlights": [
+   "Salida: 253 Lux a 3,3' (5500K)",
+   "Control integrado, DMX, CRMX y aplicación",
+   "CRI 88 | TLCI 88",
+   "Efectos especiales, segmentos de 16 píxeles",
+   "Batería incorporada; hasta 20 horas de duración",
+   "Múltiples opciones de montaje",
+   "Compatible con control remoto opcional",
+   "Resistente al agua y al polvo con clasificación IP65"
+  ],
+  "included": [
+   "8 Astera AX1 Pixel Tube RGB LED Tube Light (3.4')",
+   "Astera AX1 Wheeled Charging Case (Black)",
+   "Astera AsteraBox CRMX Transmitter Box",
+   "Samsung 7.0 Tab A 8GB Tablet",
+   "Bolso de transporte"
+  ],
+  "videoUrl": "",
+  "order": 6,
+  "requiresTech": false
+ },
+ {
+  "id": "astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8",
+  "name": "Astera NYX LED Bulbs with PowerStation, Case, and Accessories (Set of 8)",
+  "brand": "Astera",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "El conjunto de ocho  bombillas LED NYX con PowerStation, estuche y accesorios de Astera combina ocho bombillas LED NYX de 10 W con una PowerStation y una fuente de alimentación de CA multivoltaje. Cada bombilla LED incluye un portavasos y un cable de conexión USB, y todo el conjunto de equipos se guarda en un estuche resistente a la corrosión y a los impactos para guardarlo y transportarlo fácilmente a cualquier lugar.",
+  "pricePerDay": 50,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-0.webp",
+   "/img/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-1.webp",
+   "/img/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-2.webp",
+   "/img/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-3.webp",
+   "/img/products/astera-nyx-led-bulbs-with-powerstation-case-and-accessories-set-of-8-4.webp"
+  ],
+  "highlights": [
+   "8 bombillas LED con reflectores y estuche",
+   "Controlador PowerStation con batería",
+   "Fuente de alimentación de CA de múltiples voltajes",
+   "Abertura del haz: 180°",
+   "Temperatura de color: 3200 a 6500 K",
+   "Índice de reproducción cromática (TLCI): 96 / Índice de reproducción cromática (CRI): 96",
+   "Chip LED de 5 colores RGBA + Mint",
+   "Control de tono y saturación",
+   "Corrección de verde/magenta",
+   "Control por Bluetooth, DMX, UHF y CRMX"
+  ],
+  "included": [
+   "8 bombillas LED Astera NYX de 10 W con RGBA y menta",
+   "Cable USB",
+   "Estuche de transporte",
+   "Astera PowerStation con batería incorporada",
+   "Rebotadores de copa Astera para bombillas NYX (paquete de 8)",
+   "Cable USB Astera para bombilla LED FP5 (paquete de 8)",
+   "Cargador Astera AX1"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=WRjSs80dfwU",
+  "order": 7,
+  "requiresTech": false
+ },
+ {
+  "id": "arri-skypanel-s60-c-led-softlight",
+  "name": "ARRI SkyPanel S60-C LED Softlight",
+  "brand": "ARRI",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "El ARRI SkyPanel S60-C LED Softlight emite el equivalente a una luz suave de tungsteno de 2000 W mientras que consume un máximo de solo 450 W. El SkyPanel S60-C utiliza una tecnología diseñada originalmente para el Fresnel L7-C y se puede ajustar para que emita una luz cálida de 2800 K a azul helado de 10 000 K, y también utiliza toda la gama de colores RGB+W con control de tono y saturación para realizar ajustes precisos.",
+  "pricePerDay": 120,
+  "stock": 2,
+  "active": true,
+  "featured": true,
+  "images": [
+   "/img/products/arri-skypanel-s60-c-led-softlight-0.webp",
+   "/img/products/arri-skypanel-s60-c-led-softlight-1.webp",
+   "/img/products/arri-skypanel-s60-c-led-softlight-2.webp",
+   "/img/products/arri-skypanel-s60-c-led-softlight-3.webp",
+   "/img/products/arri-skypanel-s60-c-led-softlight-4.webp"
+  ],
+  "highlights": [
+   "Área de superficie del panel: 25,4 x 11,8",
+   "Adaptador de montaje en riel con apertura del haz de 115°",
+   "Temperatura de color de 2800 a 10 000 K",
+   "Mezcla de colores de gama completa",
+   "Control de tono y saturación",
+   "Verde completo menos a completo más",
+   "IRC: 95, TLCI: 90",
+   "Atenuación de 0 a 100 %, control DMX",
+   "CA multivoltaje, alimentación por batería opcional"
+  ],
+  "included": [
+   "ARRI SkyPanel S60-C LED Softlight",
+   "Fuente de alimentación",
+   "Adaptador de montaje en riel para fuente de alimentación ARRI para SkyPanel S30 y S60",
+   "Difusor estándar"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=lfYPJN9lmWQ",
+  "order": 8,
+  "requiresTech": false
+ },
+ {
+  "id": "aputure-light-storm-ls-c120d-ii-led-light-kit-with-v-mount-battery-plate",
+  "name": "Aputure Light Storm LS C120D II LED Light Kit with V-Mount Battery Plate",
+  "brand": "Aputure",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "Con un 25 % más de brillo que su predecesor, control DMX y un yugo de bloqueo del freno de mano rediseñado, la luz LED Aputure Light Storm LS C120D II LED Light Kit with V-Mount Battery Plate es una luminaria con chip en placa (COB) con una temperatura de color de 5500 K. Consume unos insignificantes 180 W de potencia mientras emite 135 000 lux, equivalente a una luz cálida de 1000 W a una distancia de 1,6 pies con un Fresnel opcional. Además de la eficiencia energética, la luminaria también presenta una alta calificación CRI/TLCI de 96/97, un indicador de reproducción precisa del color.",
+  "pricePerDay": 50,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/aputure-light-storm-ls-c120d-ii-led-light-kit-with-v-mount-battery-plate-0.webp",
+   "/img/products/aputure-light-storm-ls-c120d-ii-led-light-kit-with-v-mount-battery-plate-1.webp",
+   "/img/products/aputure-light-storm-ls-c120d-ii-led-light-kit-with-v-mount-battery-plate-2.webp"
+  ],
+  "highlights": [
+   "Temperatura de color de luz diurna de 5500 K",
+   "Índice de refracción/índice de turbulencia: 96/97",
+   "Ventilador silencioso de 18 dB, DMX integrado",
+   "Caja controladora con cable",
+   "Control remoto inalámbrico con alcance de 328'",
+   "Placa de batería con montura en V",
+   "Mango incorporado"
+  ],
+  "included": [
+   "Aputure LS 300x Monolight LED bicolor (montaje en V)",
+   "Caja de control",
+   "Hiperreflector (55°)",
+   "Cable de alimentación de CA Neutrik powerCON (19,7')",
+   "Cable con conector XLR macho a hembra de 5 pines (9,8')",
+   "Gancho de alivio de cable",
+   "Control remoto VA RC1+",
+   "Abrazadera de liberación rápida para relámpagos",
+   "Maleta de Transporte"
+  ],
+  "videoUrl": "",
+  "order": 9,
+  "requiresTech": false
+ },
+ {
+  "id": "litepanels-gemini-1x1-hard-rgb-led-light-panel",
+  "name": "Litepanels Gemini 1x1 Hard RGB LED Light Panel",
+  "brand": "Litepanels",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "La disposición de los LED se ha reconfigurado con el Gemini 1x1, lo que le permite crear el 60 % de la salida del Gemini 2x1 con un ángulo de haz medio-ancho de 46 grados. El dispositivo RGBWW de 12,6 x 12,6 x 4,6 fabricado en aluminio tiene múltiples modos de iluminación, incluidos CCT, Tono, Saturación, ajustes preestablecidos de gel, así como un modo de efectos. El control de temperatura de color CCT tiene seis ajustes preestablecidos de fábrica en incrementos de 2700 a 10 000 K. También hay seis ajustes preestablecidos para la temperatura de color definida por el usuario y el control de verde más/menos. El modo de color HSI le permite ajustar el tono, la saturación y la intensidad, mientras que el modo Gel le permite elegir entre una biblioteca de filtros preferidos por los cineastas, y un modo de efectos proporciona nueve efectos diferentes con los que trabajar. La luz tiene una calificación CRI/TLCI de 98, lo que indica una reproducción precisa del color. El Gemini se puede atenuar del 100 al 0,1 % sin parpadeo ni cambio de color,.",
+  "pricePerDay": 75,
+  "stock": 3,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/litepanels-gemini-1x1-hard-rgb-led-light-panel-0.webp",
+   "/img/products/litepanels-gemini-1x1-hard-rgb-led-light-panel-1.webp",
+   "/img/products/litepanels-gemini-1x1-hard-rgb-led-light-panel-2.webp"
+  ],
+  "highlights": [
+   "Para estudios y producciones de cine y televisión",
+   "Salida: 3023 Lux a 3,3' (5600K, 46°)",
+   "2700 a 10 000 K; control RGB CCT",
+   "12,6 x 12,6; funcionamiento con CA/CC",
+   "CRI 98 | TLCI 98",
+   "Refrigeración por ventilador con modo silencioso",
+   "Controles a bordo",
+   "DMX opcional, DMX inalámbrico, Bluetooth"
+  ],
+  "included": [
+   "Panel de luz LED RGB duro Gemini 1x1 de Litepanels (horquilla estándar, cable de alimentación de EE. UU.)",
+   "Yugo estándar",
+   "Cable de EE. UU.",
+   "Difusión ultraligera",
+   "Difusión en forma de cúpula",
+   "Maleta de Transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=WuXiEL9-QRk&t=35s",
+  "order": 10,
+  "requiresTech": false
+ },
+ {
+  "id": "litegear-litemat-2-led-hybrid-s2-complete-kit",
+  "name": "LiteGear LiteMat 2 LED Hybrid S2 Complete Kit",
+  "brand": "LiteGear",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "El LiteGear LiteMat 2 LED Hybrid S2 es el nuevo modelo que ha llegado a la ciudad. Cambiará tu forma de pensar sobre la iluminación. Es la herramienta multifunción de la iluminación. Móntalo, sujétalo con abrazaderas, pégalo con cinta adhesiva , atorníllalo... simplemente ilumina donde lo necesitas. El modelo híbrido es bicolor, totalmente ajustable de tungsteno a luz de día y también regulable y sin parpadeos. Ofrece un increíble CRI de 95 para hacer que los colores resalten.",
+  "pricePerDay": 40,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/litegear-litemat-2-led-hybrid-s2-complete-kit-0.webp",
+   "/img/products/litegear-litemat-2-led-hybrid-s2-complete-kit-1.webp",
+   "/img/products/litegear-litemat-2-led-hybrid-s2-complete-kit-2.webp",
+   "/img/products/litegear-litemat-2-led-hybrid-s2-complete-kit-3.webp",
+   "/img/products/litegear-litemat-2-led-hybrid-s2-complete-kit-4.webp",
+   "/img/products/litegear-litemat-2-led-hybrid-s2-complete-kit-5.webp"
+  ],
+  "highlights": [
+   "Móntalo, sujétalo con abrazaderas, pégalo con cinta adhesiva , atorníllalo... simplemente ilumina donde lo necesitas."
+  ],
+  "included": [
+   "LiteGear LiteMat 2 LED Hybrid S",
+   "Faldón de polietileno LiteMat 2",
+   "Difusor LiteMat 2, cuadrícula de ¼.",
+   "Difusor LiteMat 2, media rejilla",
+   "Difusor LiteMat 2, tela mágica completa",
+   "Rejilla LiteMat 2 Parasquare",
+   "LiteMat 2 Montaje central, corto",
+   "Bolsa LiteMat 2",
+   "LiteDimmer híbrido",
+   "Estuche LiteDimmer estándar",
+   "Fuente de alimentación LitePower, 8",
+   "Extensión híbrida, 12 pies",
+   "Bolsa de transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=_E7fze2-1Jc",
+  "order": 11,
+  "requiresTech": false
+ },
+ {
+  "id": "litegear-litemat-2l-hybrid-s2-led-complete-kit",
+  "name": "LiteGear LiteMat 2L Hybrid S2 LED Complete Kit",
+  "brand": "LiteGear",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "El LiteGear LiteMat 2L Hybrid S2 LED Complete Kit es una solución de iluminación brillante, suave y con colores precisos para configuraciones de iluminación de escenarios, estudios o exteriores. Con un rango de CCT variable de 2600 a 6200 K, todos con índices CRI/TLCI de 95.",
+  "pricePerDay": 50,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-0.webp",
+   "/img/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-1.webp",
+   "/img/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-2.webp",
+   "/img/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-3.webp",
+   "/img/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-4.webp",
+   "/img/products/litegear-litemat-2l-hybrid-s2-led-complete-kit-5.webp"
+  ],
+  "highlights": [
+   "Puede pensar en la LiteGear LiteMat 2L Hybrid como un fluorescente con luz natural y tubos de tungsteno instalados. Simplemente ajuste la temperatura entre 3200K y 6000K, y atenúe completamente la luz entre 0 y 100 %."
+  ],
+  "included": [
+   "LiteMat 2L, híbrido",
+   "Faldón de polietileno LiteMat 2L",
+   "Difusor LiteMat 2L, cuadrícula de un cuarto",
+   "Difusor LiteMat 2L, media rejilla",
+   "Difusor LiteMat 2L, tela mágica completa",
+   "Rejilla Parasquare LiteMat 2L",
+   "LiteMat 2L Montaje central, corto",
+   "Bolsa de transporte LiteMat de 2 l",
+   "LiteDimmer híbrido",
+   "Estuche LiteDimmer estándar",
+   "Fuente de alimentación LitePower, 8 A",
+   "Extensión híbrida, 12 pies",
+   "Bolsa de transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=_E7fze2-1Jc",
+  "order": 12,
+  "requiresTech": false
+ },
+ {
+  "id": "litegear-litemat-4-led-hybrid-s2-complete-unit-kit",
+  "name": "LiteGear LiteMat 4 LED Hybrid S2 Complete Unit Kit",
+  "brand": "LiteGear",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "El LiteGear LiteMat 4 LED Hybrid S2 Complete Unit Kit es una solución de iluminación brillante, suave y con colores precisos para configuraciones de iluminación de escenarios, estudios o exteriores. Con un rango de CCT variable de 2600 a 6200 K, todos con índices CRI/TLCI de 95.",
+  "pricePerDay": 60,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-0.webp",
+   "/img/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-1.webp",
+   "/img/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-2.webp",
+   "/img/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-3.webp",
+   "/img/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-4.webp",
+   "/img/products/litegear-litemat-4-led-hybrid-s2-complete-unit-kit-5.webp"
+  ],
+  "highlights": [
+   "Tela de mariposas/para techo de Matthews, 8 x 8 pies, seda artificial blanca"
+  ],
+  "included": [
+   "LiteMat 4, Hybrid",
+   "LiteMat 4 PolySkirt",
+   "LiteMat 4 Diffuser, Quarter Grid",
+   "LiteMat 4 Diffuser, Half Grid",
+   "LiteMat 4 Diffuser, Full Magic Cloth",
+   "LiteMat 4 Parasquare Louver",
+   "LiteMat 4 Center Mount, Short",
+   "LiteMat 4 KitBag",
+   "LiteDimmer Hybrid, High Capacity",
+   "LiteDimmer Pouch, High Capacity",
+   "LitePower Supply, 16A",
+   "Hybrid Extension, 12 Feet",
+   "Bolsa de transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=_E7fze2-1Jc",
+  "order": 13,
+  "requiresTech": false
+ },
+ {
+  "id": "litegear-litemat-plus-4",
+  "name": "LiteGear LiteMat Plus 4",
+  "brand": "LiteGear",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "El LiteGear LiteMat Plus 4 se basa en cuatro motores de luz en “mosaico”, cada uno de los cuales mide 240 mm x 480 mm (9,5 pulg. x 19 pulg.). La unidad principal cuenta con 2304 nuevos LED Cinemitter y está cubierta por una fina capa de policarbonato transparente y bordeada completamente con un cierre de “bucle” de Velcro®. El montaje se realiza con un soporte de cardán extraíble compatible con Kino Flo®. El método de “pixelización suave” permite que el LiteMat Plus 4 alcance niveles sorprendentemente brillantes.",
+  "pricePerDay": 75,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/litegear-litemat-plus-4-0.webp",
+   "/img/products/litegear-litemat-plus-4-1.webp",
+   "/img/products/litegear-litemat-plus-4-2.webp"
+  ],
+  "highlights": [
+   "LiteMat es uno de los dispositivos de iluminación cinematográfica más asequibles y profesionales que existen en la actualidad.",
+   "LiteMat Plus 4 se basa en cuatro motores de luz en “mosaico” que están protegidos por una fina capa de policarbonato transparente.",
+   "LiteMat utiliza cierres de “bucle” de Velcro® para fijar numerosos accesorios.",
+   "Su peso ligero (2,7 kg) y su perfil fino (2,3 cm) hacen que este dispositivo sea ideal para cualquier desafío de iluminación que se le presente."
+  ],
+  "included": [
+   "Panel de luz LED bicolor LiteMat Plus 4 de Litegear (kit de atenuación con montaje en V)",
+   "LiteMat Plus 4 cabezales",
+   "LiteDimmer Plus",
+   "Difusor completo",
+   "Medio difusor",
+   "Difusor de cuarto",
+   "Falda de poliéster",
+   "Rejilla Parasquare",
+   "Cable PL7 (12')",
+   "Montura K",
+   "Bolsa de transporte"
+  ],
+  "videoUrl": "",
+  "order": 14,
+  "requiresTech": false
+ },
+ {
+  "id": "aputure-ls-1200d-pro-led-light-kit",
+  "name": "Aputure LS 1200d Pro LED Light Kit",
+  "brand": "Aputure",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "La luz LED LS 1200d Pro de Aputure es una potente luminaria LED COB con una gran potencia, opciones de control y una salida comparable a una HMI de 1600 W. La luminaria de precisión tiene una temperatura de color sólida de 5600 K con una alta calificación CRI/TLCI de 95 que es ideal para filmar en exteriores o en áreas dominadas por otras luminarias con luz natural equilibrada, como las HMI. Además de la potencia, el control es una fuerza impulsora en el diseño de la 1200d Pro. La luz admite varios métodos de control inalámbrico, incluida la aplicación móvil Sidus Link y el control DMX inalámbrico integrado. La 1200d Pro también es compatible con LumenRadio CRMX, Art-net y sACN a través de un conector etherCON. También tiene conectividad DMX512 de 5 pines para integrarse sin problemas en cualquier interfaz DMX profesional.",
+  "pricePerDay": 140,
+  "stock": 1,
+  "active": true,
+  "featured": true,
+  "images": [
+   "/img/products/aputure-ls-1200d-pro-led-light-kit-0.webp",
+   "/img/products/aputure-ls-1200d-pro-led-light-kit-1.webp",
+   "/img/products/aputure-ls-1200d-pro-led-light-kit-2.webp",
+   "/img/products/aputure-ls-1200d-pro-led-light-kit-3.webp",
+   "/img/products/aputure-ls-1200d-pro-led-light-kit-4.webp",
+   "/img/products/aputure-ls-1200d-pro-led-light-kit-5.webp",
+   "/img/products/aputure-ls-1200d-pro-led-light-kit-6.webp",
+   "/img/products/aputure-ls-1200d-pro-led-light-kit-7.webp",
+   "/img/products/aputure-ls-1200d-pro-led-light-kit-8.webp"
+  ],
+  "highlights": [
+   "Luz LED LS 1200d Pro",
+   "Comparable a HMI de 1600 W",
+   "Kit reflector serie LS 1200",
+   "Ángulos de haz estrechos, medianos y anchos"
+  ],
+  "included": [
+   "Luz LED Aputure LS 1200d Pro",
+   "Caja de control",
+   "Cable de cabeza resistente a la intemperie",
+   "Cable de CA Neutrik",
+   "Abrazadera para relámpagos",
+   "Estuche de transporte con ruedas",
+   "Estuche de transporte para reflector",
+   "Kit reflector Aputure serie LS1200",
+   "Reflector hiperbólico angosto BM1215",
+   "Reflector hiperbólico mediano BM1230",
+   "Reflector hiperbólico ancho BM1245",
+   "Estuche"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=klCenCPeq9o",
+  "order": 15,
+  "requiresTech": false
+ },
+ {
+  "id": "aputure-accent-b7c-rgbww-led-8-light-kit",
+  "name": "Aputure Accent B7C RGBWW LED 8-Light Kit",
+  "brand": "Aputure",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "Este Aputure Accent B7C RGBWW LED 8-Light Kit with Charging Case es una solución de iluminación para exteriores en un práctico estuche de transporte. Incluye ocho de las versátiles bombillas LED RGBWW en un resistente estuche de transporte de polímero que cuenta con un cargador de CA multivoltaje integrado, pestillos con cierre abatible y una válvula de liberación de presión. Este estuche a prueba de polvo cuenta con un asa moldeada y acepta candados proporcionados por el usuario para mayor seguridad.",
+  "pricePerDay": 60,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/aputure-accent-b7c-rgbww-led-8-light-kit-0.webp",
+   "/img/products/aputure-accent-b7c-rgbww-led-8-light-kit-1.webp",
+   "/img/products/aputure-accent-b7c-rgbww-led-8-light-kit-2.webp",
+   "/img/products/aputure-accent-b7c-rgbww-led-8-light-kit-3.webp"
+  ],
+  "highlights": [
+   "Ocho bombillas LED RGBWW Accent B7C",
+   "Estuche de transporte con cargador de CA integrado",
+   "Bombilla de 2,75 de diámetro: 2000 a 10 000 K,",
+   "CRI/TLCI: 95+/96+; 9 x Efectos especiales",
+   "Modo RGB con tono, saturación e intensidad",
+   "CA o batería incorporada, 70 min. de autonomía",
+   "Atenuación de 0 a 100 %, casquillo E26/27",
+   "Alcance inalámbrico Bluetooth: 164'"
+  ],
+  "included": [
+   "8 luces LED RGBWW Aputure Accent B7c",
+   "Garantía limitada de 1 año",
+   "Estuche de carga"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=I_P_Bf5cLEU",
+  "order": 16,
+  "requiresTech": false
+ },
+ {
+  "id": "aputure-mc-4-light-travel-kit-with-charging-case",
+  "name": "Aputure MC 4-Light Travel Kit with Charging Case",
+  "brand": "Aputure",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "El kit de viaje de 4 luces Aputure MC con estuche de carga incluye cuatro luminarias Aputure MC, un estuche de carga y accesorios. Las luminarias MC son parte de la serie M de luces Aputure y cuentan con LED RGB, así como LED con balance de luz de tungsteno y luz diurna, lo que crea una luz LED con control de tono completo que emite hasta el 95 % de la gama de colores BT.2020.",
+  "pricePerDay": 45,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/aputure-mc-4-light-travel-kit-with-charging-case-0.webp",
+   "/img/products/aputure-mc-4-light-travel-kit-with-charging-case-1.webp",
+   "/img/products/aputure-mc-4-light-travel-kit-with-charging-case-2.webp",
+   "/img/products/aputure-mc-4-light-travel-kit-with-charging-case-3.webp",
+   "/img/products/aputure-mc-4-light-travel-kit-with-charging-case-4.webp",
+   "/img/products/aputure-mc-4-light-travel-kit-with-charging-case-5.webp"
+  ],
+  "highlights": [
+   "4 luminarias MC RGBWW",
+   "Cobertura de gama BT.2020 del 95 %",
+   "Control de color HSI completo",
+   "Atenuación de 0 a 100 %",
+   "Pantalla OLED con rueda de control",
+   "Compatibilidad de la aplicación Aputure Sidus Link",
+   "Fuente de alimentación y cable de alimentación",
+   "2 x adaptadores de rótula esférica para zapata fría"
+  ],
+  "included": [
+   "Kit de viaje de 4 luces Aputure MC con estuche de carga",
+   "4 x Luminarias MC (sin accesorios)",
+   "Estuche rígido con carga inalámbrica",
+   "Bolsa de accesorios",
+   "2 x difusor de caucho de silicona",
+   "2 x Mini rótula de zapata fría",
+   "Fuente de alimentación del estuche de carga",
+   "Cable de energía",
+   "Juego de tornillos de 1/4-20"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=51cCie6W7bM",
+  "order": 17,
+  "requiresTech": false
+ },
+ {
+  "id": "aputure-nova-p300c-rgb-led-light-panel-travel-kit",
+  "name": "Aputure Nova P300c RGB LED Light Panel (Travel Kit)",
+  "brand": "Aputure",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "La flexibilidad y el control son claves para el diseño del panel de luz Aputure Nova P300c RGB LED Light Panel (Travel Kit). El dispositivo de construcción robusta tiene dos modos de iluminación. El modo CCT ofrece una temperatura de color expansiva de 2000 a 10,000K con una impresionante calificación CRI/TLCI de 95 y control de verde más/menos. El modo HSI le permite ajustar el tono, la saturación y la intensidad para acceder a literalmente millones de colores personalizados, y la biblioteca de geles estándar de la industria de 300 ofrece un control cromático aún mayor. El P300c también se puede atenuar de 0 a 100% sin parpadeo ni cambio de color. Además Aputure Nova P300c RGB LED Light Panel tiene 15 efectos especiales que incluyen auto de policía, relámpago, paparazzi, vela y más",
+  "pricePerDay": 75,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-0.webp",
+   "/img/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-1.webp",
+   "/img/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-2.webp",
+   "/img/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-3.webp",
+   "/img/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-4.webp",
+   "/img/products/aputure-nova-p300c-rgb-led-light-panel-travel-kit-5.webp"
+  ],
+  "highlights": [
+   "Para estudios y producciones de cine y televisión",
+   "Salida: 9000 Lux a 3,3' (5500K)",
+   "2000-10 000 K; control de color RGB",
+   "Panel de 15,7 x 10,7; funcionamiento con CA/CC",
+   "CRI 95 | TLCI 95 | SSI 74 | CQS 92",
+   "Control por aplicación Bluetooth, DMX512 integrado",
+   "Refrigeración activa por ventilador",
+   "Con caja de control, horquilla y abrazadera de montaje",
+   "Atenuación: 0-100°, ajuste verde más/menos",
+   "Más de 300 ajustes preestablecidos de gel, 19 efectos especiales"
+  ],
+  "included": [
+   "Aputure Nova P300c RGB LED Light Panel",
+   "Caja de control",
+   "Abrazadera para relámpagos",
+   "Cable de alimentación de CA Neutrik powerCON (19,7')",
+   "Cable con conector XLR macho a hembra de 5 pines (9,8')",
+   "Cable con conector XLR macho a hembra de 5 pines (2')",
+   "Maleta de Transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=xHEZTiPOg3Q",
+  "order": 18,
+  "requiresTech": false
+ },
+ {
+  "id": "dash-pocket-rgb-led-light-panel-crmx-w-dmx",
+  "name": "DASH Pocket RGB LED Light Panel (CRMX/W-DMX)",
+  "brand": "DASH",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "El mini panel compacto de 5 x 3 x 1 tiene un rango de CCT variable de 1700 a 10,000K para satisfacer cualquier tipo de desafío de luz ambiental, combinar con otras luminarias o simplemente para la expresión creativa. También tiene una alta calificación CRI/TLCI 95/90, lo que es su garantía de precisión avanzada en la reproducción del color. Y hablando de calificaciones, la luz también tiene clasificación IP65 a prueba de intemperie, por lo que no tiene que preocuparse por las condiciones climáticas. El DASH también ofrece atenuación sin parpadeos de 0 a 100%.",
+  "pricePerDay": 15,
+  "stock": 5,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-0.webp",
+   "/img/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-1.webp",
+   "/img/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-2.webp",
+   "/img/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-3.webp",
+   "/img/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-4.webp",
+   "/img/products/dash-pocket-rgb-led-light-panel-crmx-w-dmx-5.webp"
+  ],
+  "highlights": [
+   "Salida: 250 Lux a 3,3' (6500K)",
+   "1700 a 10 000 K; Control CCT",
+   "IRC 95 | TLCI 90",
+   "Funcionamiento a bordo, Bluetooth y CRMX",
+   "Refrigeración pasiva, funcionamiento silencioso",
+   "Mezcla de 6 chips, biblioteca de geles Rosco de 137",
+   "Modo de color: Selector de color HSI y XY"
+  ],
+  "included": [
+   "DASH Pocket RGB LED Light Panel (CRMX/W-DMX)",
+   "Cable de carga USB-C",
+   "Difusor plano",
+   "Difusor de cúpula",
+   "Caja de huevos",
+   "Porta gel",
+   "Soporte de montaje para luz",
+   "Montaje magnético",
+   "Estuche de Transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=lwrYBPi8krQ",
+  "order": 19,
+  "requiresTech": false
+ },
+ {
+  "id": "nanlux-evoke-900c-rgb-led-spot-light",
+  "name": "Nanlux Evoke 900C RGB LED Spot Light",
+  "brand": "Nanlux",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "Nanlux Evoke 900C RGB LED Spot Light, que combina un control avanzado con la capacidad RGBLAC, es un dispositivo potente pero compacto con un impresionante rango de temperatura de color y una extensión del haz de 60°. Su CCT variable de 1800 a 20 000 K le permite usarlo en interiores, exteriores y entornos de iluminación mixta. El Evoke 900C se puede regular del 0 al 100 % en incrementos ultraprecisos de solo el 0,1 %. Además de incorporar LED de color lima, ámbar y cian, la luz ofrece altos índices de CRI/TLCI de 96 como garantía de precisión en la reproducción del color.",
+  "pricePerDay": 125,
+  "stock": 1,
+  "active": true,
+  "featured": true,
+  "images": [
+   "/img/products/nanlux-evoke-900c-rgb-led-spot-light-0.webp",
+   "/img/products/nanlux-evoke-900c-rgb-led-spot-light-1.webp",
+   "/img/products/nanlux-evoke-900c-rgb-led-spot-light-2.webp",
+   "/img/products/nanlux-evoke-900c-rgb-led-spot-light-3.webp"
+  ],
+  "highlights": [
+   "1800-20 000 K CCT; control total de color RGB",
+   "Alimentación por CA o por batería",
+   "Control integrado, por aplicación e inalámbrico",
+   "DMX/RDM, LumenRadio, Art-Net y sACN",
+   "IRC 96 | TLCI 96 | TM-30 Rf 94, Rg 100",
+   "Ángulo de haz de 60°, atenuación de 0 a 100 %",
+   "Clasificación IP55, resistente al agua y al polvo"
+  ],
+  "included": [
+   "Nanlux Evoke 900C RGB LED Spot Light",
+   "Yugo",
+   "Fuente de alimentación",
+   "Reflector Nanlux para Evoke 1200 (45°)",
+   "Cable de conexión de CC (24,6)",
+   "Cable de alimentación de CA (19,6')",
+   "Soporte de liberación rápida Nanlux",
+   "Control remoto",
+   "Caja de la carretilla"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=nbqtv7vjAJE",
+  "order": 20,
+  "requiresTech": false
+ },
+ {
+  "id": "nanlux-evoke-1200b-led-bi-color-spot-light-kit",
+  "name": "Nanlux Evoke 1200B LED Bi-Color Spot Light Kit",
+  "brand": "Nanlux",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "Nanlux ha creado este Nanlux Evoke 1200B LED Bi-Color Spot Light Kit con estuche con ruedas para fotógrafos que quieran llevar la luz a cualquier lugar. El kit incluye el 1200B y el balasto, así como un estuche con ruedas. El 1200B, que adopta un formato popular y fácil de usar, tiene una amplia gama de colores variables de 2700 a 6500 K con altos índices de CRI y TLCI de 96 y 97 para no dejar ninguna duda de que el color se reproducirá con precisión hasta el tono más sutil. El 1200B se puede regular de 0 a 100 % en incrementos de 0,1 % y tiene curvas de atenuación lineal, de curva S, exponencial y logarítmica para garantizar la precisión del color independientemente de la intensidad de luz elegida.",
+  "pricePerDay": 140,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-0.webp",
+   "/img/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-1.webp",
+   "/img/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-2.webp",
+   "/img/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-3.webp",
+   "/img/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-4.webp",
+   "/img/products/nanlux-evoke-1200b-led-bi-color-spot-light-kit-5.webp"
+  ],
+  "highlights": [
+   "Lámpara LED bicolor Evoke 1200B",
+   "Caja de la carretilla",
+   "61.030 Lux a 9,8' y 5600K",
+   "Color variable: 2700 a 6500K",
+   "Tamaño: 19,8 x 14,56 x 8,26, CA 100-240 V",
+   "Reflector de 45°",
+   "Control DMX por Bluetooth, cableado o inalámbrico"
+  ],
+  "included": [
+   "Kit de foco LED bicolor Nanlux Evoke 1200B con estuche con ruedas",
+   "Foco LED bicolor Nanlux Evoke 1200B",
+   "Caja de la carretilla"
+  ],
+  "videoUrl": "https://youtu.be/5WvaOEvOvoQ?si=J5Io6L-Il4EZZ71R",
+  "order": 21,
+  "requiresTech": false
+ },
+ {
+  "id": "nanlux-fresnel-lens-with-offset-yoke",
+  "name": "Nanlux Fresnel Lens with Offset Yoke",
+  "brand": "Nanlux",
+  "category": "Iluminación",
+  "subcategory": "Accesorios de iluminación",
+  "description": "La lente Fresnel Nanlux Fresnel Lens with Offset Yoke está diseñada para enfocar nítidamente la dispersión del haz del Evoke 1200B. La lente viene con viseras de 4 vías, mientras que la horquilla descentrada permite una fácil inclinación sin obstrucciones.",
+  "pricePerDay": 30,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/nanlux-fresnel-lens-with-offset-yoke-0.webp",
+   "/img/products/nanlux-fresnel-lens-with-offset-yoke-1.webp",
+   "/img/products/nanlux-fresnel-lens-with-offset-yoke-2.webp",
+   "/img/products/nanlux-fresnel-lens-with-offset-yoke-3.webp",
+   "/img/products/nanlux-fresnel-lens-with-offset-yoke-4.webp",
+   "/img/products/nanlux-fresnel-lens-with-offset-yoke-5.webp",
+   "/img/products/nanlux-fresnel-lens-with-offset-yoke-6.webp"
+  ],
+  "highlights": [
+   "Lente Fresnel de vidrio",
+   "Puertas de granero adjuntas",
+   "Enfoca nítidamente la propagación del haz",
+   "El yugo desplazado permite la inclinación con viseras"
+  ],
+  "included": [
+   "Lente Fresnel Nanlux con horquilla descentrada",
+   "Yugo",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=thL5gbkTz3I",
+  "order": 22,
+  "requiresTech": false
+ },
+ {
+  "id": "creamsource-vortex4",
+  "name": "Creamsource Vortex4",
+  "brand": "Creamsource",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "Creamsource Vortex 4 es un panel LED 1×1 RGBW todo en uno con un potente haz de 20° que produce 7300 lux a 3 metros. Ofrece una gama CCT de 2200K a 15000K (divisible en cuatro zonas controlables independientemente), control total de tono/saturación, control de intensidad de 0-100% y un CRI/TCLI de 95+. Efectos, geles de color y la última tecnología FrameSync están integrados en la última arquitectura CreamOS. Vortex 4 también ofrece la funcionalidad Vortex Connect, que incluye LumenRadio TimoTwo integrada, Ethernet con sACN, Bluetooth, Wi-Fi, DMX de 5 patillas, USB tipo A y un puerto para accesorios Creamsource, lo que permite una amplia gama de posibilidades de control y compatibilidad con futuros protocolos. El Vortex 4 es resistente al agua según la norma IP65 y está sellado para mayor seguridad.",
+  "pricePerDay": 110,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/creamsource-vortex4-0.webp",
+   "/img/products/creamsource-vortex4-1.webp",
+   "/img/products/creamsource-vortex4-2.webp"
+  ],
+  "highlights": [
+   "Creamsource Vortex 4 es un panel LED 1×1 RGBW todo en uno con un potente haz de 20° que produce 7300 lux a 3 metros."
+  ],
+  "included": [
+   "1 x Vortex4",
+   "1 x Cable de alimentación PowerCon",
+   "1 x Binaural",
+   "1 x Placa difusora plana",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=Cp5cg5jHGkU&t=112s",
+  "order": 23,
+  "requiresTech": false
+ },
+ {
+  "id": "etc-source-four-jr-zoom",
+  "name": "ETC Source Four jr Zoom",
+  "brand": "ETC",
+  "category": "Iluminación",
+  "subcategory": "Convencional",
+  "description": "La versatilidad en los ángulos de apertura de un zoom elipsoidal, en un paquete compacto.\n{Lbn} Si usted busca versatilidad en los ángulos de campo de un zoom elipsoidal, con la asequibilidad y el diseño de un elipsoidal más pequeño, lo que usted está buscando es el Source Four jr Zoom. Ideal para aplicaciones en escenarios pequeños o clubes, eventos minoristas e industrias, Source Four jr Zoom cuenta con la resistente construcción de los aparatos de ETC y todas las famosas ópticas de precisión de Source Four.",
+  "pricePerDay": 40,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/etc-source-four-jr-zoom-0.webp",
+   "/img/products/etc-source-four-jr-zoom-1.webp",
+   "/img/products/etc-source-four-jr-zoom-2.webp",
+   "/img/products/etc-source-four-jr-zoom-3.webp"
+  ],
+  "highlights": [
+   "Filamento de tungsteno compacto",
+   "Innovador diseño de filamento de cuatros bobinas",
+   "Base con disipador térmico incorporado",
+   "Conexión térmica positiva para una disipación térmica eficaz",
+   "Ranurado para una alineación precisa en el conjunto de enchufe"
+  ],
+  "included": [
+   "ETC Source Four jr Zoom",
+   "Bolso de transporte"
+  ],
+  "videoUrl": "",
+  "order": 24,
+  "requiresTech": false
+ },
+ {
+  "id": "etc-source-4-19-750w",
+  "name": "ETC Source 4 19 750W",
+  "brand": "ETC",
+  "category": "Iluminación",
+  "subcategory": "Convencional",
+  "description": "Ninguna otra luz ofrece tal brillantez óptica. La tecnología revolucionaria de Source Four le brinda un haz blanco limpio para una imagen inigualable, una proyección de patrones nítida y un campo luminoso y uniforme. La opción de tubo de lente EDLT para ángulos de campo de 19º, 26º, 36º y 50º hace que Source Four sea aún mejor para proyecciones de gobos ultranítidas y de alto contraste.",
+  "pricePerDay": 50,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/etc-source-4-19-750w-0.webp",
+   "/img/products/etc-source-4-19-750w-1.webp",
+   "/img/products/etc-source-4-19-750w-2.webp"
+  ],
+  "highlights": [
+   "Potencia nominal de hasta 750 W",
+   "Lámpara HPL de alta eficiencia",
+   "El reflector dicroico facetado elimina el 90% del calor IR del haz",
+   "Tubos de lentes intercambiables",
+   "Cañón giratorio ± 25º",
+   "Conjunto de lamas de persiana de acero inoxidable de tres planos",
+   "Ajuste de lámpara sin herramientas",
+   "Mango trasero aislado",
+   "Construcción robusta de aluminio fundido a presión."
+  ],
+  "included": [
+   "ETC Source 4 19 750W",
+   "Bolso de transporte"
+  ],
+  "videoUrl": "",
+  "order": 25,
+  "requiresTech": false
+ },
+ {
+  "id": "arri-true-blue-t1-1000w-pole-operated-fresnel-fixture",
+  "name": "ARRI True Blue T1 1000W Pole-Operated Fresnel Fixture",
+  "brand": "ARRI",
+  "category": "Iluminación",
+  "subcategory": "Convencional",
+  "description": "La luminaria ARRI True Blue T1 1000W Pole-Operated Fresnel Fixture  ofrece un sistema de enfriamiento cruzado que reduce la temperatura de la carcasa de la lámpara y la lente. Cuenta con un disco de fricción de acero inoxidable para un bloqueo rígido, soportes de malla ajustables de 2 y 4 posiciones, protección de lente de acero inoxidable con transmisión de luz maximizada y estabilidad a altas temperaturas. La luminaria incluye un cable de 4,9', viseras de 4 hojas y un marco de filtro.",
+  "pricePerDay": 65,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-0.webp",
+   "/img/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-1.webp",
+   "/img/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-2.webp",
+   "/img/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-3.webp",
+   "/img/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-4.webp",
+   "/img/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-5.webp",
+   "/img/products/arri-true-blue-t1-1000w-pole-operated-fresnel-fixture-6.webp"
+  ],
+  "highlights": [
+   "Soportes de posición de malla ajustables de 2/4",
+   "Cable de 4,9 pies"
+  ],
+  "included": [
+   "Luminaria Fresnel operada por poste ARRI True Blue T1 de 1000 W",
+   "Cable de alimentación (5')",
+   "Puertas de granero de 4 hojas",
+   "Marco de filtro",
+   "Maleta de Transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=ikngykg2aTs",
+  "order": 26,
+  "requiresTech": false
+ },
+ {
+  "id": "dedolight-150w-focusing-light-head",
+  "name": "Dedolight 150W Focusing Light Head",
+  "brand": "Dedolight",
+  "category": "Iluminación",
+  "subcategory": "Convencional",
+  "description": "El Dedolight DLHM4300U es un dispositivo de halógeno de tungsteno autónomo de 150 vatios y 120 voltios que funciona con un regulador de intensidad de transformador electrónico incorporado. Esta versión del cabezal Dedolight utiliza lámparas de 24 V y 150 W alimentadas directamente desde una fuente de alimentación de CA y ofrece una temperatura de color de 3000 °K..  La lámpara DLHM ofrece una gran economía de energía y confiabilidad, ya que una lámpara típica de 150 W dura más de 1000 horas. A diferencia de la DLH2, la DLHM no debe utilizarse boca abajo durante períodos prolongados.",
+  "pricePerDay": 30,
+  "stock": 4,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/dedolight-150w-focusing-light-head-0.webp",
+   "/img/products/dedolight-150w-focusing-light-head-1.webp",
+   "/img/products/dedolight-150w-focusing-light-head-2.webp"
+  ],
+  "highlights": [
+   "Utiliza lámparas de 150 W/24 V"
+  ],
+  "included": [
+   "Cabezal de luz de enfoque Dedolight de 150 W con fuente de alimentación regulable (120 V)",
+   "Transformador regulador de intensidad incorporado, cable de alimentación de 16,4' con interruptor en línea para usar con voltaje de 120 CA",
+   "Bolso de transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=5lmIbpQ0jnc",
+  "order": 27,
+  "requiresTech": false
+ },
+ {
+  "id": "amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount",
+  "name": "Amaran F22c 2 x 2' RGB LED Flexible Light Mat (V-Mount)",
+  "brand": "Amaran",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "El F22c RGBWW LED Mat de amaranes un tapete LED potente, versátil y flexible que mide 2 x 2'. Oferta una salida de luz excepcional y una reproducción del color adecuada para una variedad de usuarios, desde cineastas hasta videos, creadores de contenido y fotografos. Con 200 W de potencia, cuenta con LED RGBWW para un control completo del color, como CCT ajustable de 2500 a 7500K",
+  "pricePerDay": 75,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-0.webp",
+   "/img/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-1.webp",
+   "/img/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-2.webp",
+   "/img/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-3.webp",
+   "/img/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-4.webp",
+   "/img/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-5.webp",
+   "/img/products/amaran-f22c-2-x-2-rgb-led-flexible-light-mat-v-mount-6.webp"
+  ],
+  "highlights": [
+   "Salida: 6420 Lux a 3,3' (5600K)",
+   "2500-7500K CCT; Control de color HSI",
+   "2 x 2' Mat; operación AC/DC",
+   "CRI 95 | TLCI 98 | CQS 96",
+   "Control integrado, DMX y Bluetooth",
+   "Refrigeración pasiva para un funcionamiento silencioso",
+   "Atenuación de 0 a 100%, 15 efectos de iluminación",
+   "Batería de CA multivoltaje con montaje en V"
+  ],
+  "included": [
+   "amaran F22c 2 x 2' RGB LED Flexible Light Mat (V-Mount)",
+   "Caja de control con placa de batería (V-Mount)",
+   "Cable de extensión de cabeza al de 9,8'",
+   "Soporte de apoyo",
+   "Adaptador de clavija para bebé en ángulo recto",
+   "Adaptador de clavija para bebé recto",
+   "Soporte de montaje inclinable",
+   "Marco de softbox F22",
+   "Tela difusora F22 1 (tela de alegría 1/2)",
+   "Tela difusora F22 2 (2,5 pasos)",
+   "Rejilla de control de luz F22 de 45°",
+   "Fuente de alimentación de CA de múltiplos voltajes",
+   "Cable de alimentación de CA",
+   "Estuche de transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=XApyrKjyE3M",
+  "order": 28,
+  "requiresTech": false
+ },
+ {
+  "id": "litepanels-gemini-1x1-soft-rgb-led-light-panel",
+  "name": "Litepanels Gemini 1x1 Soft RGB LED Light Panel",
+  "brand": "Litepanels",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "La estabilidad, la construcción robusta, la flexibilidad y el control son las características distintivas del panel de luz Litepanels Gemini 1x1 Soft RGB LED Light Panel . El dispositivo RGBWW de 12,6 x 12,6 x 4,6 fabricado en aluminio tiene múltiples modos de iluminación, incluidos CCT, Tono, Saturación, ajustes preestablecidos de gel, así como un modo de efectos. El control de temperatura de color CCT tiene seis ajustes preestablecidos de fábrica en incrementos de 2700 a 10 000 K. También hay seis ajustes preestablecidos para la temperatura de color definida por el usuario y el control de verde más/menos.",
+  "pricePerDay": 65,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-0.webp",
+   "/img/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-1.webp",
+   "/img/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-2.webp",
+   "/img/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-3.webp",
+   "/img/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-4.webp",
+   "/img/products/litepanels-gemini-1x1-soft-rgb-led-light-panel-5.webp"
+  ],
+  "highlights": [
+   "Salida: 614 Lux a 3,3' (5600K, 95°)",
+   "2700 a 10 000 K; control RGB CCT",
+   "12,6 x 12,6; funcionamiento con CA/CC",
+   "CRI 97 | TLCI 94",
+   "Refrigeración por ventilador con modo silencioso",
+   "Controles a bordo",
+   "DMX opcional, DMX inalámbrico, Bluetooth"
+  ],
+  "included": [
+   "Panel de luz LED RGB suave Gemini 1x1 de Litepanels (horquilla estándar, cable de alimentación de EE. UU.)",
+   "Yugo estándar",
+   "Difusor mediano",
+   "Cable de alimentación de EE. UU",
+   "Maleta de Transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=Bv4mlIpobHg",
+  "order": 29,
+  "requiresTech": false
+ },
+ {
+  "id": "creamsource-vortex8-rgb-led-light-panel",
+  "name": "Creamsource Vortex8 RGB LED Light Panel",
+  "brand": "Creamsource",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "Agregue este panel de luz Creamsource Vortex8 RGB LED Light Panel a su producción de alta gama para obtener una amplia gama de colores, efectos e iluminación potente que rivaliza con una luz HMI de 1200 W. El Vortex8 presenta una impresionante emisión de 14 000 lux a la luz del día a 9,8 pies, un rango de temperatura de color de 2200 a 15 000 K, LED de espectro RGBW completo, control total de tono/saturación, control de atenuación de 0 a 100 % y un CRI/TLCI de 95.",
+  "pricePerDay": 140,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/creamsource-vortex8-rgb-led-light-panel-0.webp",
+   "/img/products/creamsource-vortex8-rgb-led-light-panel-1.webp",
+   "/img/products/creamsource-vortex8-rgb-led-light-panel-2.webp",
+   "/img/products/creamsource-vortex8-rgb-led-light-panel-3.webp",
+   "/img/products/creamsource-vortex8-rgb-led-light-panel-4.webp",
+   "/img/products/creamsource-vortex8-rgb-led-light-panel-5.webp"
+  ],
+  "highlights": [
+   "Salida: 14.000 Lux a 9,8' (5600K, 20°)",
+   "2200-15 000 K; control de color RGB",
+   "27,2 x 15; funcionamiento con CA de múltiples voltajes",
+   "IRC 95 | TLCI 95",
+   "A bordo, DMX, Bluetooth, Ethernet, Wi-Fi",
+   "Ventiladores de velocidad variable y bajo nivel de ruido",
+   "Activación y sincronización con el obturador de la cámara",
+   "Modos de alta velocidad: dispara hasta 5000 fps"
+  ],
+  "included": [
+   "Creamsource Vortex8 RGB LED Light Panel",
+   "Yugo",
+   "Panel difusor plano",
+   "Cable de CA PowerCON"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=0cmoXatzFkY",
+  "order": 30,
+  "requiresTech": false
+ },
+ {
+  "id": "nanlux-dyno-1200c-rgbw-led-panel",
+  "name": "Nanlux Dyno 1200C RGBW LED Panel",
+  "brand": "Nanlux",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "Para aquellos que requieren lo último en control de color, el panel tiene un modo RGB que le da acceso a literalmente millones de colores. Otra ventaja es los 1200C's 15 efectos de iluminación incluyendo bucle de tono, bucle CCT, bucle INT, flash, pulso, tormenta, coche de policía, TV, paparazzi, vela/fre, discoteca, bombilla, fuegos artificiales, etc, explosión y soldadura. El Dyno 1200C está listo para su uso en todo el mundo gracias a su fuente de alimentación de 100 a 240V e incluye estuche de vuelo para almacenamiento y transporte.",
+  "pricePerDay": 140,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/nanlux-dyno-1200c-rgbw-led-panel-0.webp",
+   "/img/products/nanlux-dyno-1200c-rgbw-led-panel-1.webp",
+   "/img/products/nanlux-dyno-1200c-rgbw-led-panel-2.webp"
+  ],
+  "highlights": [
+   "Medidas 40 x 36 x 7, Modo RGBWW",
+   "Color variable: 2700-20,000K, CRI: 95",
+   "Dims 0-100%, 15 Efectos Especiales",
+   "Remoto: 2.4 GHz, Bluetooth, LumenRadio"
+  ],
+  "included": [
+   "Panel LED Nanlux Dyno 1200C RGBWW con Estuche de Viaje",
+   "Adaptador de Corriente",
+   "Cable de Conexión",
+   "Cable de Alimentación",
+   "Difusor Estándar",
+   "Abrazadera de Soporte Ligero",
+   "Estuche protector"
+  ],
+  "videoUrl": "https://youtu.be/0sNLBaulwDg?si=4L0OcYRTK8PddQ_Y",
+  "order": 31,
+  "requiresTech": false
+ },
+ {
+  "id": "nanlux-evoke-2400b-bi-color-led",
+  "name": "Nanlux Evoke 2400B Bi-Color LED",
+  "brand": "Nanlux",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "una solución de iluminación versátil y robusta, que brinda una excelente representación del color y flexibilidad para los profesionales de la fotografía y el cine. Ofrece un amplio rango de temperatura de color de 2700 a 6500K con un CRI alto de 96 y TLCI de 97, lo que garantiza una reproducción precisa del color, mientras que los ajustes verde y magenta aseguran una sintonización perfecta del color.",
+  "pricePerDay": 200,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/nanlux-evoke-2400b-bi-color-led-0.webp",
+   "/img/products/nanlux-evoke-2400b-bi-color-led-1.webp",
+   "/img/products/nanlux-evoke-2400b-bi-color-led-2.webp",
+   "/img/products/nanlux-evoke-2400b-bi-color-led-3.webp"
+  ],
+  "highlights": [
+   "Para Producción de Estudio y Cine/TV",
+   "Salida: 41.910 Lux a 9,8' a 5600K",
+   "2700-6500K CCT, +/- 80 G/M Tinte",
+   "CRI 96 | TLCI 97",
+   "CA Potencia",
+   "A bordo, DMX, Bluetooth, Control de Aplicaciones",
+   "IP55 A prueba de intemperie",
+   "45° Reflector"
+  ],
+  "included": [
+   "Nanlux Evoke 2400B Bi-Color LED Monolight",
+   "Yugo",
+   "Fuente de Alimentación",
+   "45° Reflector",
+   "Unidad USB",
+   "Abrazadera de Liberación Rápida",
+   "Control Remoto",
+   "Cable de conexión DC (24.6')",
+   "Cable de alimentación de AC (9.8')"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=0Lwf_xfp4Ck",
+  "order": 32,
+  "requiresTech": true
+ },
+ {
+  "id": "nanlux-fl-35e-motorized-fresnel-lens",
+  "name": "Nanlux FL-35E Motorized Fresnel Lens",
+  "brand": "Nanlux",
+  "category": "Iluminación",
+  "subcategory": "Accesorios de iluminación",
+  "description": "Un modificador que cambia el juego para Nanlux  monolight insignia, el FL-35E Lente Fresnel Motorizada utiliza los contactos electrónicos de la montura NL para acercar remotamente su ángulo de haz entre 15 y 46°, amplificando la salida bruta de la Evoke 2400B hasta más de cinco veces su salida base.",
+  "pricePerDay": 30,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/nanlux-fl-35e-motorized-fresnel-lens-0.webp",
+   "/img/products/nanlux-fl-35e-motorized-fresnel-lens-1.webp",
+   "/img/products/nanlux-fl-35e-motorized-fresnel-lens-2.webp",
+   "/img/products/nanlux-fl-35e-motorized-fresnel-lens-3.webp"
+  ],
+  "highlights": [
+   "DMX, NANLINK App Control",
+   "Motor-Controlada 15-46° Ángulo de haz.",
+   "Incluye Barndoors y Trolley Case"
+  ],
+  "included": [
+   "Nanlux FL-35E Lente Fresnel Motorizada",
+   "Barndoors",
+   "Estuche"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=rzS7kqX3lsI",
+  "order": 33,
+  "requiresTech": false
+ },
+ {
+  "id": "nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit",
+  "name": "Nanlite PavoTube II 30X RGB LED Pixel Tube Light (4', 5-Light Kit)",
+  "brand": "Nanlite",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "Es una solución eficiente tanto para la iluminación de fotos como de video. El kit contiene cinco luces de tubo con adaptadores de AC, clips de montaje y una bolsa para almacenamiento y transporte",
+  "pricePerDay": 110,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-0.webp",
+   "/img/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-1.webp",
+   "/img/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-2.webp",
+   "/img/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-3.webp",
+   "/img/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-4.webp",
+   "/img/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-5.webp",
+   "/img/products/nanlite-pavotube-ii-30x-rgb-led-pixel-tube-light-4-5-light-kit-6.webp"
+  ],
+  "highlights": [
+   "Para Producción de Fotografía, Video y Cine",
+   "Salida: 746 Lux a 3.3' para cada Luz",
+   "2700-12,000K CCT; modo RGB",
+   "Control a bordo, Inalámbrico, DMX y App",
+   "CRI 97 | TLCI 98",
+   "15 Efectos Especiales y 10 Efectos Pixel",
+   "Batería Recargable Incorporada; CA Power",
+   "Tres 1/4-20 Receptores para Montaje",
+   "Compatible con Control Remoto Opcional",
+   "Incluye Adaptadores, Clips y Bolsa"
+  ],
+  "included": [
+   "Nanlite PavoTube II 30X RGB LED Tube Light (4')",
+   "Clip de policarbonato transparente Nanlite PavoTube con dos receptores de 1/4-20",
+   "Cable de alimentación (9,9')",
+   "Adaptador de corriente con cable",
+   "Estuche de Transporte"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=wWRcW8n925w",
+  "order": 34,
+  "requiresTech": false
+ },
+ {
+  "id": "aputure-amaran-t4c-rgb-led-tube-light-4",
+  "name": "Aputure amaran T4C RGB LED Tube Light (4')",
+  "brand": "Aputure",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "amaran es un innovador tubo de 4' con salida RGBWW, una temperatura de color ajustable de 2500-7500K y un control de color creativo para una gama de looks y efectos de iluminación. Con una salida de 744 lux a 3.3' (5600K) y compatibilidad con la aplicación Sidus Link, esta luz es ideal para creadores de contenido, cineastas y fotógrafos por igual. Cuenta con una amplia gama de opciones de montaje y un agarre de batería intercambiable de 77Wh incluido.",
+  "pricePerDay": 35,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/aputure-amaran-t4c-rgb-led-tube-light-4-0.webp",
+   "/img/products/aputure-amaran-t4c-rgb-led-tube-light-4-1.webp",
+   "/img/products/aputure-amaran-t4c-rgb-led-tube-light-4-2.webp"
+  ],
+  "highlights": [
+   "Para Entusiastas de Fotografía y Video",
+   "Salida: 744 Lux a 3.3' (5600K)",
+   "2500-7500K CCT; modo RGB",
+   "Control de A bordo, DMX y App",
+   "CRI 95 | TLCI 98 | CQS 96",
+   "46 Geles de Color Preset, 15 FX Incorporado",
+   "Mango de Batería Intercambiable y Recargable",
+   "NATO Rail, 1/4-20 y 3/8-16 Montaje",
+   "Funciona con Cable USB-C a DMX Opcional",
+   "Incluye Adaptador de AC, Agarre de Batería y Bolsa"
+  ],
+  "included": [
+   "amaran T4C RGB LED Tube Light (4')",
+   "Grifo de la Batería del Tubo",
+   "Fuente de alimentación de AC",
+   "Cable de alimentación de AC",
+   "Estuche"
+  ],
+  "videoUrl": "https://youtu.be/9uUiPGD7mA0",
+  "order": 35,
+  "requiresTech": false
+ },
+ {
+  "id": "creamsource-spacex-rgbaw-color-led-light-1200w",
+  "name": "Creamsource SpaceX RGBAW Color LED Light, 1200W",
+  "brand": "Creamsource",
+  "category": "Iluminación",
+  "subcategory": "LED",
+  "description": "El potente y versátil SpaceX RBGAW Color Luz LED de CreamSource es un instrumento de luz de 1200W compuesto por una serie de seis potentes motores LED que operan en un factor de forma circular compacto. Con un CRI de 95 a través de su gama de 3200K a 6500K, proporciona una excelente reproducción del color y luego agrega capacidades completas de tono y saturación RBGAW para millones de colores disponibles. Los eficientes LED RBGAW proporcionan un rango de temperatura de color extendido de 2200K a 15,000K con un control completo de verde/magenta.",
+  "pricePerDay": 125,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/creamsource-spacex-rgbaw-color-led-light-1200w-0.webp",
+   "/img/products/creamsource-spacex-rgbaw-color-led-light-1200w-1.webp",
+   "/img/products/creamsource-spacex-rgbaw-color-led-light-1200w-2.webp",
+   "/img/products/creamsource-spacex-rgbaw-color-led-light-1200w-3.webp"
+  ],
+  "highlights": [
+   "Ángulo de haz: 115°",
+   "Temperatura de color: 2200-15,000K",
+   "Control de Tono y Saturación",
+   "Menos Completo a Control Completo Plus Green",
+   "Salida de tungsteno Equivalente: 5K",
+   "0-100% Dimming, Sin parpadeo",
+   "Inalámbrico integrado DMX y Lumen Radio",
+   "Control Local con Panel de Pantalla OLED",
+   "Velocidades de Ventilador Ajustables Silenciosas con Pausa",
+   "Operación de CA de Multi-Voltaje."
+  ],
+  "included": [
+   "Creamsource SpaceX RBGAW Color Luz LED, 1200W",
+   "Yugo Space-X",
+   "Cable de CA PowerCON",
+   "Guía de Inicio Rápido"
+  ],
+  "videoUrl": "https://youtu.be/pbcdt5TXS1s?si=PdhXjyM-HSLLcX72",
+  "order": 36,
+  "requiresTech": false
+ },
+ {
+  "id": "sony-fx3-full-frame-cinema-camera",
+  "name": "Sony FX3 Full-Frame Cinema Camera",
+  "brand": "Sony",
+  "category": "Cámaras",
+  "subcategory": "Cuerpos de cámara",
+  "description": "",
+  "pricePerDay": 125,
+  "stock": 2,
+  "active": true,
+  "featured": true,
+  "images": [
+   "/img/products/sony-fx3-full-frame-cinema-camera-0.webp",
+   "/img/products/sony-fx3-full-frame-cinema-camera-1.webp",
+   "/img/products/sony-fx3-full-frame-cinema-camera-2.webp",
+   "/img/products/sony-fx3-full-frame-cinema-camera-3.webp",
+   "/img/products/sony-fx3-full-frame-cinema-camera-4.webp",
+   "/img/products/sony-fx3-full-frame-cinema-camera-5.webp"
+  ],
+  "highlights": [
+   "12.1MP Full-Frame CMOS Exmor R Sensor",
+   "UHD 4K hasta 120 | 1080p hasta 240",
+   "Formato Compacto para Operación sin Jaulas",
+   "10-Bit 4:2:2",
+   "S-Cinetone/S-Log3/HLG, 15+ Stops DR",
+   "Mango Adaptador desmontable 2 x XLR/TRS",
+   "Detección de Fase AF/Face Tracking/Eye AF",
+   "80 A 409.600 Rango ISO ampliado",
+   "Ranuras para tarjetas Dual CFexpress Tipo A/SDXC"
+  ],
+  "included": [
+   "Sony FX3 Full-Frame Cámara de Cine",
+   "Sony XLR-H1 XLR Unidad de Mango",
+   "X1 Sony BC-QZ1 Cargador de batería",
+   "Cable de Alimentación",
+   "X2 Sony NP-FZ100 Batería Recargable de Iones de Litio (2280mAh)",
+   "X2 160GB CFexpress Tipo A Tarjeta de memoria",
+   "Maleta",
+   "ProGrade Digital CFexpress Tipo A y UHS-II SDXC Dual-Slot USB 3.2 Gen 2 Lector de Tarjetas"
+  ],
+  "videoUrl": "https://youtu.be/2YXh88hwqnM?si=n_8A1ahIJYrtstjm",
+  "order": 37,
+  "requiresTech": false
+ },
+ {
+  "id": "sony-fx3-full-frame-cinema-camera-kit",
+  "name": "Sony FX3 Full-Frame Cinema Camera kit",
+  "brand": "Sony",
+  "category": "Cámaras",
+  "subcategory": "Cuerpos de cámara",
+  "description": "",
+  "pricePerDay": 200,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/sony-fx3-full-frame-cinema-camera-kit-0.webp",
+   "/img/products/sony-fx3-full-frame-cinema-camera-kit-1.webp",
+   "/img/products/sony-fx3-full-frame-cinema-camera-kit-2.webp",
+   "/img/products/sony-fx3-full-frame-cinema-camera-kit-3.webp",
+   "/img/products/sony-fx3-full-frame-cinema-camera-kit-4.webp",
+   "/img/products/sony-fx3-full-frame-cinema-camera-kit-5.webp"
+  ],
+  "highlights": [
+   "12.1MP Full-Frame CMOS Exmor R Sensor",
+   "UHD 4K hasta 120 | 1080p hasta 240",
+   "Formato Compacto para Operación sin Jaulas",
+   "10-Bit 4:2:2",
+   "S-Cinetone/S-Log3/HLG, 15+ Stops DR",
+   "Mango Adaptador desmontable 2 x XLR/TRS",
+   "Detección de Fase AF/Face Tracking/Eye AF",
+   "80 A 409.600 Rango ISO ampliado",
+   "Ranuras para tarjetas Dual CFexpress Tipo A/SDXC"
+  ],
+  "included": [
+   "Sony FX3 Full-Frame Cámara de Cine",
+   "Sony XLR-H1 XLR Unidad de Mango",
+   "X1 Sony BC-QZ1 Cargador de batería",
+   "Cable de Alimentación",
+   "X2 Sony NP-FZ100 Batería Recargable de Iones de Litio (2280mAh)",
+   "X2 160GB CFexpress Tipo A Tarjeta de memoria",
+   "Maleta",
+   "ProGrade Digital CFexpress Tipo A y UHS-II SDXC Dual-Slot USB 3.2 Gen 2 Lector de Tarjetas",
+   "Sony FE 24-105mm f/4 G OSS Lens",
+   "Sachtler Ace Fluid Head with 2-Stage Aluminum Tripod"
+  ],
+  "videoUrl": "",
+  "order": 38,
+  "requiresTech": false
+ },
+ {
+  "id": "sony-fx6-full-frame-cinema-camera",
+  "name": "Sony FX6 Full-Frame Cinema Camera",
+  "brand": "Sony",
+  "category": "Cámaras",
+  "subcategory": "Cuerpos de cámara",
+  "description": "",
+  "pricePerDay": 200,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/sony-fx6-full-frame-cinema-camera-0.webp",
+   "/img/products/sony-fx6-full-frame-cinema-camera-1.webp",
+   "/img/products/sony-fx6-full-frame-cinema-camera-2.webp",
+   "/img/products/sony-fx6-full-frame-cinema-camera-3.webp",
+   "/img/products/sony-fx6-full-frame-cinema-camera-4.webp"
+  ],
+  "highlights": [
+   "4K Full-Frame 10.2MP CMOS Exmor R Sensor",
+   "DCI 4K60p | UHD 4K120 | 1080p240",
+   "15+ Paradas de Rango Dinámico en S-Log 3 EI",
+   "1.3x y 2.0x Anamorphic De-Squeeze",
+   "La Forma Compacta Pesa Menos de 2 lb",
+   "Detección de Fase AF/Face Tracking/Eye AF",
+   "Base 800-12,800 ISO /320-409,600 Max",
+   "Modos S-Cinetone, S-Log3, HLG",
+   "10-Bit 4:2:2",
+   "Ranuras para tarjetas Dual CFexpress Tipo A/SDXC"
+  ],
+  "included": [
+   "Sony FX6 Full-Frame Cinema Camera (Solo Cuerpo)",
+   "Unidad de Mango",
+   "Monitor LCD de 3.5",
+   "grip Remoto de Agarre",
+   "X2  SONY BP-FL75 (5900mH)",
+   "BC-CU1 cargador de Batería",
+   "Adaptador de CA",
+   "Cable de Alimentación",
+   "ProGrade Digital CFexpress Tipo A y UHS-II SDXC Dual-Slot USB 3.2 Gen 2 Lector de Tarjetas",
+   "X2 160GB CFexpress Tipo A Tarjeta de memoria",
+   "Tilta Camara Cage para Sony FX6"
+  ],
+  "videoUrl": "https://youtu.be/qv2eHXJqbIQ?si=pQn4DebQYho184Cj",
+  "order": 39,
+  "requiresTech": false
+ },
+ {
+  "id": "sony-fx6-full-frame-cinema-camera-kit",
+  "name": "Sony FX6 Full-Frame Cinema Camera kit",
+  "brand": "Sony",
+  "category": "Cámaras",
+  "subcategory": "Cuerpos de cámara",
+  "description": "",
+  "pricePerDay": 300,
+  "stock": 1,
+  "active": true,
+  "featured": true,
+  "images": [
+   "/img/products/sony-fx6-full-frame-cinema-camera-kit-0.webp",
+   "/img/products/sony-fx6-full-frame-cinema-camera-kit-1.webp",
+   "/img/products/sony-fx6-full-frame-cinema-camera-kit-2.webp",
+   "/img/products/sony-fx6-full-frame-cinema-camera-kit-3.webp",
+   "/img/products/sony-fx6-full-frame-cinema-camera-kit-4.webp"
+  ],
+  "highlights": [
+   "4K Full-Frame 10.2MP CMOS Exmor R Sensor",
+   "DCI 4K60p | UHD 4K120 | 1080p240",
+   "15+ Paradas de Rango Dinámico en S-Log 3 EI",
+   "1.3x y 2.0x Anamorphic De-Squeeze",
+   "La Forma Compacta Pesa Menos de 2 lb",
+   "Detección de Fase AF/Face Tracking/Eye AF",
+   "Base 800-12,800 ISO /320-409,600 Max",
+   "Modos S-Cinetone, S-Log3, HLG",
+   "10-Bit 4:2:2",
+   "Ranuras para tarjetas Dual CFexpress Tipo A/SDXC"
+  ],
+  "included": [
+   "Sony FX6 Full-Frame Cinema Camera (Solo Cuerpo)",
+   "Unidad de Mango",
+   "Monitor LCD de 3.5",
+   "grip Remoto de Agarre",
+   "X2  SONY BP-FL75 (5900mH)",
+   "BC-CU1 cargador de Batería",
+   "Adaptador de ac",
+   "Cable de Alimentación",
+   "ProGrade Digital CFexpress Tipo A y UHS-II SDXC Dual-Slot USB 3.2 Gen 2 Lector de Tarjetas",
+   "X2 160GB CFexpress Tipo A Tarjeta de memoria",
+   "Tilta Camera Cage para Sony FX6",
+   "FLUID HEAD CINE 7+7 HD 100MM",
+   "FE PZ 28-135mm f/4 G OSS Lens"
+  ],
+  "videoUrl": "https://youtu.be/qv2eHXJqbIQ?si=pQn4DebQYho184Cj",
+  "order": 40,
+  "requiresTech": false
+ },
+ {
+  "id": "sony-pxw-fx9-xdcam-6k-full-frame-camera",
+  "name": "Sony PXW-FX9 XDCAM 6K Full-Frame Camera",
+  "brand": "Sony",
+  "category": "Cámaras",
+  "subcategory": "Cuerpos de cámara",
+  "description": "",
+  "pricePerDay": 350,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-0.webp",
+   "/img/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-1.webp",
+   "/img/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-2.webp",
+   "/img/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-3.webp",
+   "/img/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-4.webp"
+  ],
+  "highlights": [
+   "6K Full-Frame Exmor R CMOS Sensor",
+   "15 Paradas de Rango Dinámico, HDR Dinámico",
+   "DCI 4K y UHD 4K hasta 60p",
+   "Quad Full HD 120p Raw con Unidad XDCA-FX9",
+   "Grabación HD de hasta 150/180 fps",
+   "Sony E-Mount",
+   "10 Bits 4: 2",
+   "Filtro Auto-HD, AF, 7-Stop ND, LUT 3D",
+   "Base dual ISO hasta 102,400, modo HLG",
+   "Salida 12G/6G/3G-SDI y HDMI hasta 4K"
+  ],
+  "included": [
+   "Sony PXW-FX9 XDCAM 6K (Cuerpo)",
+   "Adaptador de ac",
+   "Cable de Alimentación",
+   "x2 SONY BP-FL75 (5900mH)",
+   "Visor con Varilla y Abrazadera",
+   "Control Remoto de Agarre",
+   "x3 Tarjeta de memoria Sony 120GB G Series XQD"
+  ],
+  "videoUrl": "https://youtu.be/57__4XHfvC0?si=z9g9kFijTnTZ0wh_",
+  "order": 41,
+  "requiresTech": true
+ },
+ {
+  "id": "sony-pxw-fx9-xdcam-6k-full-frame-camera-kit",
+  "name": "Sony PXW-FX9 XDCAM 6K Full-Frame Camera kit",
+  "brand": "Sony",
+  "category": "Cámaras",
+  "subcategory": "Cuerpos de cámara",
+  "description": "",
+  "pricePerDay": 400,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-0.webp",
+   "/img/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-1.webp",
+   "/img/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-2.webp",
+   "/img/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-3.webp",
+   "/img/products/sony-pxw-fx9-xdcam-6k-full-frame-camera-kit-4.webp"
+  ],
+  "highlights": [
+   "6K Full-Frame Exmor R CMOS Sensor",
+   "15 Paradas de Rango Dinámico, HDR Dinámico",
+   "DCI 4K y UHD 4K hasta 60p",
+   "Quad Full HD 120p Raw con Unidad XDCA-FX9",
+   "Grabación HD de hasta 150/180 fps",
+   "Sony E-Mount",
+   "10 Bits 4: 2",
+   "Filtro Auto-HD, AF, 7-Stop ND, LUT 3D",
+   "Base dual ISO hasta 102,400, modo HLG",
+   "Salida 12G/6G/3G-SDI y HDMI hasta 4K"
+  ],
+  "included": [
+   "Sony PXW-FX9 XDCAM 6K (Cuerpo)",
+   "Adaptador de ac",
+   "Cable de Alimentación",
+   "x2 SONY BP-FL75 (5900mH)",
+   "Visor con Varilla y Abrazadera",
+   "Control Remoto de Agarre",
+   "x3 Tarjeta de memoria Sony 120GB G Series XQD",
+   "FLUID HEAD CINE 7+7 HD 100MM",
+   "FE PZ 28-135mm f/4 G OSS Lens"
+  ],
+  "videoUrl": "https://youtu.be/57__4XHfvC0?si=z9g9kFijTnTZ0wh_",
+  "order": 42,
+  "requiresTech": true
+ },
+ {
+  "id": "sony-venice-6k-digital-motion-picture-camera",
+  "name": "Sony VENICE 6K Digital Motion Picture Camera",
+  "brand": "Sony",
+  "category": "Cámaras",
+  "subcategory": "Cuerpos de cámara",
+  "description": "La cámara viene con un soporte PL extraíble que admite los protocolos de metadatos de la lente Cooke /i Technology, lo que le permite trabajar con vidrio estilo cine que va desde el vintage hasta el moderno. Tal como está, la cámara admite la captura DCI y UHD 4K, mientras que las actualizaciones de firmware planificadas y programadas permitirán velocidades de fotogramas anamórficas, de fotograma completo y selectas de 1 a 72 fps.",
+  "pricePerDay": 500,
+  "stock": 1,
+  "active": true,
+  "featured": true,
+  "images": [
+   "/img/products/sony-venice-6k-digital-motion-picture-camera-0.webp",
+   "/img/products/sony-venice-6k-digital-motion-picture-camera-1.webp",
+   "/img/products/sony-venice-6k-digital-motion-picture-camera-2.webp",
+   "/img/products/sony-venice-6k-digital-motion-picture-camera-3.webp",
+   "/img/products/sony-venice-6k-digital-motion-picture-camera-4.webp",
+   "/img/products/sony-venice-6k-digital-motion-picture-camera-5.webp",
+   "/img/products/sony-venice-6k-digital-motion-picture-camera-6.webp"
+  ],
+  "highlights": [
+   "Sensor CMOS de Marco Completo",
+   "Admite UHD 4K y DCI 4K Capture",
+   "15+ Paradas de Rango Dinámico",
+   "Admite Captura 6K con Actualización de Licencia",
+   "Captura Anamórfica con Actualización de Licencia",
+   "Montaje PL extraíble, Protocolo Cooke /i",
+   "Sony E-Mount con Contactos Electrónicos",
+   "8 x Filtros ND Integrados",
+   "Pantalla Integrada de Información del Asistente",
+   "Ranuras para tarjetas Dual SxS para XAVC o ProRes"
+  ],
+  "included": [],
+  "videoUrl": "https://youtu.be/mj3P1cc2e64?si=y7dG34mcmAsn2CQV",
+  "order": 43,
+  "requiresTech": true
+ },
+ {
+  "id": "canon-cn-e-30-105mm-t2-8-l-sp-telephoto-cinema-zoom-lens",
+  "name": "Canon CN-E 30-105mm T2.8 L SP Telephoto Cinema Zoom lens",
+  "brand": "Canon",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "El CN-E 30-105mm T2.8 L SP Telephoto Cinema Zoom Lens con PL Mount ofrece una apertura máxima f/2.8 brillante que permite su uso incluso en escenas con poca luz. Y sin cambios en el brillo durante el zoom, estas lentes permiten un atractivo bokeh (la forma en que la lente produce puntos de luz fuera de foco) cuando se emplea una profundidad de campo poco profunda. Y con un M.O.D. muy bajo (distancia mínima del objeto) de 23.6 (0.6 m), esta lente le permite disparar primeros planos más ajustados y le permite disparar en entornos de espacio limitado. Esto hace que esta lente sea una opción atractiva para una producción que se disparará en varios lugares tanto en el campo como en el escenario.",
+  "pricePerDay": 150,
+  "stock": 1,
+  "active": true,
+  "featured": true,
+  "images": [
+   "/img/products/canon-cn-e-30-105mm-t2-8-l-sp-telephoto-cinema-zoom-lens-0.webp",
+   "/img/products/canon-cn-e-30-105mm-t2-8-l-sp-telephoto-cinema-zoom-lens-1.webp",
+   "/img/products/canon-cn-e-30-105mm-t2-8-l-sp-telephoto-cinema-zoom-lens-2.webp",
+   "/img/products/canon-cn-e-30-105mm-t2-8-l-sp-telephoto-cinema-zoom-lens-3.webp",
+   "/img/products/canon-cn-e-30-105mm-t2-8-l-sp-telephoto-cinema-zoom-lens-4.webp",
+   "/img/products/canon-cn-e-30-105mm-t2-8-l-sp-telephoto-cinema-zoom-lens-5.webp"
+  ],
+  "highlights": [
+   "Diseñado para Cámaras de Resolución 4K",
+   "Cubre APS-C y Super 35 Tamaños de Sensor",
+   "11 Blade Iris para Attractive Bokeh",
+   "f/2.8 Apertura para Escenas de Baja Lit",
+   "300° Rotación Para Enfoque",
+   "Pesa Solo 4.8 lb."
+  ],
+  "included": [
+   "Canon CN-E 30-105mm T2.8 L SP Telefoto",
+   "Maleta de transporte",
+   "Wooden Camera Universal Lens Support"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=Kac5PgPBXyg",
+  "order": 44,
+  "requiresTech": false
+ },
+ {
+  "id": "rokinon-xeen-meister-14mm-t2-6-pro-cine-lens-arri-pl",
+  "name": "Rokinon XEEN Meister 14mm T2.6 Pro Cine Lens (ARRI PL)",
+  "brand": "Rokinon",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "XEEN Meister 14mm T2.6 de Rokinon es una lente principal de estilo cine que ofrece una excelente captura con poca luz con cobertura de fotograma completo. Esta lente extra ancha de montaje en PL es adecuada para cámaras de resolución de hasta 8K",
+  "pricePerDay": 100,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/rokinon-xeen-meister-14mm-t2-6-pro-cine-lens-arri-pl-0.webp",
+   "/img/products/rokinon-xeen-meister-14mm-t2-6-pro-cine-lens-arri-pl-1.webp",
+   "/img/products/rokinon-xeen-meister-14mm-t2-6-pro-cine-lens-arri-pl-2.webp",
+   "/img/products/rokinon-xeen-meister-14mm-t2-6-pro-cine-lens-arri-pl-3.webp"
+  ],
+  "highlights": [
+   "Cubre Sensores de Marco Completo",
+   "Adecuado para 8K",
+   "Apertura Máxima T2.6 Rápida",
+   "Metadatos de la tecnología Cooke /i",
+   "13-Blade Iris, Oval Bokeh",
+   "Marcas Luminosas de Enfoque/Iris en Ambos Lados",
+   "Amplia rotación de enfoque de 300°",
+   "X-Coating para Flare Controlada",
+   "diámetro Frontal de 134 mm"
+  ],
+  "included": [
+   "Rokinon XEEN Meister 14mm T2.6 Pro Cine (ARRI PL)",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "",
+  "order": 45,
+  "requiresTech": false
+ },
+ {
+  "id": "rokinon-xeen-meister-24mm-t1-3-pro-cine-arri-pl",
+  "name": "Rokinon XEEN Meister 24mm T1.3 Pro Cine (ARRI PL)",
+  "brand": "Rokinon",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "Cada lente XEEN Meister T1.3 presenta 300° de rotación para tirones de enfoque precisos, un diámetro frontal de 114 mm compatible con cajas pro mate seleccionadas y una construcción de metal duradera con un frente de titanio. Esta lente de montaje PL proporciona la tecnología Cooke /i para mostrar y/o grabar metadatos como la distancia focal, la apertura y la distancia de enfoque.",
+  "pricePerDay": 100,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/rokinon-xeen-meister-24mm-t1-3-pro-cine-arri-pl-0.webp",
+   "/img/products/rokinon-xeen-meister-24mm-t1-3-pro-cine-arri-pl-1.webp",
+   "/img/products/rokinon-xeen-meister-24mm-t1-3-pro-cine-arri-pl-2.webp",
+   "/img/products/rokinon-xeen-meister-24mm-t1-3-pro-cine-arri-pl-3.webp"
+  ],
+  "highlights": [
+   "Cubre Sensores de Marco Completo",
+   "Adecuado para 8K",
+   "Super-Fast T1.3 Apertura Máxima",
+   "Metadatos de la tecnología Cooke /i",
+   "13-Blade Iris, Oval Bokeh",
+   "Marcas Luminosas de Enfoque/Iris en Ambos Lados",
+   "Amplia rotación de enfoque de 300°",
+   "X-Coating para Flare Controlada",
+   "diámetro Frontal de 114 mm"
+  ],
+  "included": [
+   "Rokinon XEEN Meister 24mm T1.3 Pro Cine (ARRI PL)",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "",
+  "order": 46,
+  "requiresTech": false
+ },
+ {
+  "id": "lente-rokinon-xeen-meister-35mm-t1-3-pro-cine-arri-pl",
+  "name": "Lente Rokinon XEEN Meister 35mm T1.3 Pro Cine (ARRI PL)",
+  "brand": "Rokinon",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "Cada lente XEEN Meister T1.3 presenta 300° de rotación para tirones de enfoque precisos, un diámetro frontal común de 114 mm compatible con la mayoría de las cajas mate profesionales y una construcción de metal duradera con un frente de titanio. Esta lente de montaje PL proporciona la tecnología Cooke /i para mostrar y/o grabar metadatos como la distancia focal, la apertura y la distancia de enfoque.",
+  "pricePerDay": 100,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/lente-rokinon-xeen-meister-35mm-t1-3-pro-cine-arri-pl-0.webp",
+   "/img/products/lente-rokinon-xeen-meister-35mm-t1-3-pro-cine-arri-pl-1.webp",
+   "/img/products/lente-rokinon-xeen-meister-35mm-t1-3-pro-cine-arri-pl-2.webp",
+   "/img/products/lente-rokinon-xeen-meister-35mm-t1-3-pro-cine-arri-pl-3.webp"
+  ],
+  "highlights": [
+   "Cubre Sensores de Marco Completo",
+   "Adecuado para 8K",
+   "Super-Fast T1.3 Apertura Máxima",
+   "Metadatos de la tecnología Cooke /i",
+   "13-Blade Iris, Oval Bokeh",
+   "Marcas Luminosas de Enfoque/Iris en Ambos Lados",
+   "Amplia rotación de enfoque de 300°",
+   "X-Coating para Flare Controlada",
+   "diámetro Frontal de 114 mm"
+  ],
+  "included": [
+   "Rokinon XEEN Meister 35mm T1.3 (PL Mount)",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "",
+  "order": 47,
+  "requiresTech": false
+ },
+ {
+  "id": "rokinon-xeen-14mm-t3-1-lens-canon-ef",
+  "name": "Rokinon Xeen 14mm T3.1 Lens (Canon EF)",
+  "brand": "Canon",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "está construido específicamente para su uso como una lente de cine. Cuenta con un diseño de enfoque interno para que la lente no cambie de tamaño mientras se enfoca, minimizando la apariencia de la respiración al cambiar el enfoque.",
+  "pricePerDay": 75,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/rokinon-xeen-14mm-t3-1-lens-canon-ef-0.webp",
+   "/img/products/rokinon-xeen-14mm-t3-1-lens-canon-ef-1.webp",
+   "/img/products/rokinon-xeen-14mm-t3-1-lens-canon-ef-2.webp",
+   "/img/products/rokinon-xeen-14mm-t3-1-lens-canon-ef-3.webp",
+   "/img/products/rokinon-xeen-14mm-t3-1-lens-canon-ef-4.webp"
+  ],
+  "highlights": [
+   "Cubre Sensores de Marco Completo",
+   "Diseño de Enfoque Interno",
+   "Recubrimiento Múltiple para Consistencia de Color",
+   "Escalas de Enfoque de Doble Lado y T-Stop",
+   "Iris de 9 cuchillas",
+   "Cinema Gearing para Focus e Iris",
+   "200° Rotación de enfoque",
+   "114mm Diámetro Frontal"
+  ],
+  "included": [
+   "Rokinon Xeen 14mm T3.1 (Canon EF)",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "",
+  "order": 48,
+  "requiresTech": false
+ },
+ {
+  "id": "rokinon-xeen-16mm-t2-6-lens-canon-ef",
+  "name": "Rokinon Xeen 16mm T2.6 Lens (Canon EF)",
+  "brand": "Canon",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "Está construido específicamente para su uso como una lente de cine. Cuenta con un diseño de enfoque interno para que la lente no cambie de tamaño mientras se enfoca, minimizando la apariencia de la respiración al cambiar el enfoque.",
+  "pricePerDay": 75,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/rokinon-xeen-16mm-t2-6-lens-canon-ef-0.webp",
+   "/img/products/rokinon-xeen-16mm-t2-6-lens-canon-ef-1.webp",
+   "/img/products/rokinon-xeen-16mm-t2-6-lens-canon-ef-2.webp",
+   "/img/products/rokinon-xeen-16mm-t2-6-lens-canon-ef-3.webp",
+   "/img/products/rokinon-xeen-16mm-t2-6-lens-canon-ef-4.webp",
+   "/img/products/rokinon-xeen-16mm-t2-6-lens-canon-ef-5.webp"
+  ],
+  "highlights": [
+   "Cubre Sensores de Marco Completo",
+   "Adecuado para 6K",
+   "Diseño de Enfoque Interno",
+   "Recubrimiento Múltiple para Consistencia de Color",
+   "Escalas Dual Side Focus y T-Stop",
+   "Cinema Gearing para Focus e Iris",
+   "200° Rotación de enfoque",
+   "diámetro Frontal de 114 m"
+  ],
+  "included": [
+   "Rokinon Xeen 16mm T2.6 Lens (Canon EF)",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "",
+  "order": 49,
+  "requiresTech": false
+ },
+ {
+  "id": "rokinon-xeen-20mm-t1-9-lens-canon-ef",
+  "name": "Rokinon Xeen 20mm T1.9 Lens  (Canon EF)",
+  "brand": "Canon",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "Está construido específicamente para su uso como una lente de cine. Cuenta con un diseño de enfoque interno para que la lente no cambie de tamaño mientras se enfoca, minimizando la apariencia de la respiración al cambiar el enfoque.",
+  "pricePerDay": 75,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/rokinon-xeen-20mm-t1-9-lens-canon-ef-0.webp",
+   "/img/products/rokinon-xeen-20mm-t1-9-lens-canon-ef-1.webp",
+   "/img/products/rokinon-xeen-20mm-t1-9-lens-canon-ef-2.webp",
+   "/img/products/rokinon-xeen-20mm-t1-9-lens-canon-ef-3.webp",
+   "/img/products/rokinon-xeen-20mm-t1-9-lens-canon-ef-4.webp",
+   "/img/products/rokinon-xeen-20mm-t1-9-lens-canon-ef-5.webp"
+  ],
+  "highlights": [
+   "Cubre Sensores de Marco Completo",
+   "Adecuado para 6K",
+   "Diseño de Enfoque Interno",
+   "Recubrimiento Múltiple para Consistencia de Color",
+   "Escalas Dual Side Focus y T-Stop",
+   "Cinema Gearing para Focus e Iris",
+   "200° Rotación de enfoque",
+   "diámetro Frontal de 114 m"
+  ],
+  "included": [
+   "Rokinon Xeen 20mm T1.9 Lens  (Canon EF)",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "",
+  "order": 50,
+  "requiresTech": false
+ },
+ {
+  "id": "rokinon-xeen-24mm-t1-5-lens-canon-ef",
+  "name": "Rokinon Xeen 24mm T1.5 Lens (Canon EF)",
+  "brand": "Canon",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "Cada lente en el conjunto tiene una capa múltiple para un buen contraste, prevención de deslumbramiento y se adapta al color a un estándar de fábrica, lo que le permite ensamblar un conjunto a lo largo del tiempo con un cambio de color mínimo. Esta lente de 24 mm proporciona lo que se considera un gran ángulo de visión en las cámaras de fotograma completo y un ángulo de visión más estrecho en formatos más pequeños.",
+  "pricePerDay": 75,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/rokinon-xeen-24mm-t1-5-lens-canon-ef-0.webp",
+   "/img/products/rokinon-xeen-24mm-t1-5-lens-canon-ef-1.webp",
+   "/img/products/rokinon-xeen-24mm-t1-5-lens-canon-ef-2.webp",
+   "/img/products/rokinon-xeen-24mm-t1-5-lens-canon-ef-3.webp",
+   "/img/products/rokinon-xeen-24mm-t1-5-lens-canon-ef-4.webp"
+  ],
+  "highlights": [
+   "Cubre Sensores de Marco Completo",
+   "Diseño de Enfoque Interno",
+   "Recubrimiento Múltiple para Consistencia de Color",
+   "Escalas Dual Side Focus y T-Stop",
+   "11 Hoja Iris",
+   "Cinema Gearing para Focus e Iris",
+   "200° Rotación de enfoque",
+   "diámetro Frontal de 114 mm"
+  ],
+  "included": [
+   "Rokinon Xeen 24mm T1.5 Lens (Canon EF)",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "",
+  "order": 51,
+  "requiresTech": false
+ },
+ {
+  "id": "rokinon-xeen-35mm-t1-5-lens-canon-ef",
+  "name": "Rokinon Xeen 35mm T1.5 Lens (Canon EF)",
+  "brand": "Canon",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "Está construido específicamente para su uso como una lente de cine. Cuenta con un diseño de enfoque interno para que la lente no cambie de tamaño mientras se enfoca, minimizando la apariencia de la respiración al cambiar el enfoque.",
+  "pricePerDay": 75,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/rokinon-xeen-35mm-t1-5-lens-canon-ef-0.webp",
+   "/img/products/rokinon-xeen-35mm-t1-5-lens-canon-ef-1.webp",
+   "/img/products/rokinon-xeen-35mm-t1-5-lens-canon-ef-2.webp",
+   "/img/products/rokinon-xeen-35mm-t1-5-lens-canon-ef-3.webp",
+   "/img/products/rokinon-xeen-35mm-t1-5-lens-canon-ef-4.webp"
+  ],
+  "highlights": [
+   "Cubre Sensores de Marco Completo",
+   "Diseño de Enfoque Interno",
+   "Recubrimiento Múltiple para Consistencia de Color",
+   "Escalas Dual Side Focus y T-Stop",
+   "11 Hoja Iris",
+   "Cinema Gearing para Focus e Iris",
+   "200° Rotación de enfoque",
+   "diámetro Frontal de 114 mm"
+  ],
+  "included": [
+   "Rokinon Xeen 35mm T1.5 Lens (Canon EF)",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "",
+  "order": 52,
+  "requiresTech": false
+ },
+ {
+  "id": "rokinon-xeen-50mm-t1-5-lens-canon-ef",
+  "name": "Rokinon Xeen 50mm T1.5 Lens (Canon EF)",
+  "brand": "Canon",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "Está construido específicamente para su uso como una lente de cine. Cuenta con un diseño de enfoque interno para que la lente no cambie de tamaño mientras se enfoca, minimizando la apariencia de la respiración al cambiar el enfoque.",
+  "pricePerDay": 75,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/rokinon-xeen-50mm-t1-5-lens-canon-ef-0.webp",
+   "/img/products/rokinon-xeen-50mm-t1-5-lens-canon-ef-1.webp",
+   "/img/products/rokinon-xeen-50mm-t1-5-lens-canon-ef-2.webp",
+   "/img/products/rokinon-xeen-50mm-t1-5-lens-canon-ef-3.webp",
+   "/img/products/rokinon-xeen-50mm-t1-5-lens-canon-ef-4.webp"
+  ],
+  "highlights": [
+   "Cubre Sensores de Marco Completo",
+   "Diseño de Enfoque Interno",
+   "Recubrimiento Múltiple para Consistencia de Color",
+   "Escalas Dual Side Focus y T-Stop",
+   "11 Hoja Iris",
+   "Cinema Gearing para Focus e Iris",
+   "200° Rotación de enfoque",
+   "diámetro Frontal de 114 mm"
+  ],
+  "included": [
+   "Rokinon Xeen 50mm T1.5 Lens (Canon EF)",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "",
+  "order": 53,
+  "requiresTech": false
+ },
+ {
+  "id": "rokinon-xeen-85mm-t1-5-lens-canon-ef",
+  "name": "Rokinon Xeen 85mm T1.5 Lens (Canon EF)",
+  "brand": "Canon",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "Está construido específicamente para su uso como una lente de cine. Cuenta con un diseño de enfoque interno para que la lente no cambie de tamaño mientras se enfoca, minimizando la apariencia de la respiración al cambiar el enfoque.",
+  "pricePerDay": 75,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/rokinon-xeen-85mm-t1-5-lens-canon-ef-0.webp",
+   "/img/products/rokinon-xeen-85mm-t1-5-lens-canon-ef-1.webp",
+   "/img/products/rokinon-xeen-85mm-t1-5-lens-canon-ef-2.webp",
+   "/img/products/rokinon-xeen-85mm-t1-5-lens-canon-ef-3.webp",
+   "/img/products/rokinon-xeen-85mm-t1-5-lens-canon-ef-4.webp"
+  ],
+  "highlights": [
+   "Cubre Sensores de Marco Completo",
+   "Diseño de Enfoque Interno",
+   "Recubrimiento Múltiple para Consistencia de Color",
+   "Escalas Dual Side Focus y T-Stop",
+   "11 Hoja Iris",
+   "Cinema Gearing para Focus e Iris",
+   "200° Rotación de enfoque",
+   "diámetro Frontal de 114 mm"
+  ],
+  "included": [
+   "Rokinon Xeen 85mm T1.5 Lens (Canon EF)",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "",
+  "order": 54,
+  "requiresTech": false
+ },
+ {
+  "id": "rokinon-xeen-135mm-t2-2-lens-canon-ef",
+  "name": "Rokinon Xeen 135mm T2.2 Lens (Canon EF)",
+  "brand": "Canon",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "Está construido específicamente para su uso como una lente de cine. Cuenta con un diseño de enfoque interno para que la lente no cambie de tamaño mientras se enfoca, minimizando la apariencia de la respiración al cambiar el enfoque.",
+  "pricePerDay": 75,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/rokinon-xeen-135mm-t2-2-lens-canon-ef-0.webp",
+   "/img/products/rokinon-xeen-135mm-t2-2-lens-canon-ef-1.webp",
+   "/img/products/rokinon-xeen-135mm-t2-2-lens-canon-ef-2.webp",
+   "/img/products/rokinon-xeen-135mm-t2-2-lens-canon-ef-3.webp",
+   "/img/products/rokinon-xeen-135mm-t2-2-lens-canon-ef-4.webp",
+   "/img/products/rokinon-xeen-135mm-t2-2-lens-canon-ef-5.webp"
+  ],
+  "highlights": [
+   "Cubre Sensores de Marco Completo",
+   "Diseño de Enfoque Interno",
+   "Recubrimiento Múltiple para Consistencia de Color",
+   "Escalas Dual Side Focus y T-Stop",
+   "11 Hoja Iris",
+   "Cinema Gearing para Focus e Iris",
+   "200° Rotación de enfoque",
+   "diámetro Frontal de 114 mm"
+  ],
+  "included": [
+   "Rokinon Xeen 135mm T2.2 Lens (Canon EF)",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "",
+  "order": 55,
+  "requiresTech": false
+ },
+ {
+  "id": "rokinon-xeen-14-16-20-24-35-50-85-135mm-cine-8-lens-bundle-canon-ef",
+  "name": "Rokinon Xeen 14,16, 20, 24, 35, 50, 85, 135mm Cine 8 Lens Bundle (Canon EF)",
+  "brand": "Canon",
+  "category": "Kits",
+  "subcategory": "Kit de Cámara",
+  "description": "",
+  "pricePerDay": 400,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/rokinon-xeen-14-16-20-24-35-50-85-135mm-cine-8-lens-bundle-canon-ef-0.webp",
+   "/img/products/rokinon-xeen-14-16-20-24-35-50-85-135mm-cine-8-lens-bundle-canon-ef-1.webp",
+   "/img/products/rokinon-xeen-14-16-20-24-35-50-85-135mm-cine-8-lens-bundle-canon-ef-2.webp",
+   "/img/products/rokinon-xeen-14-16-20-24-35-50-85-135mm-cine-8-lens-bundle-canon-ef-3.webp",
+   "/img/products/rokinon-xeen-14-16-20-24-35-50-85-135mm-cine-8-lens-bundle-canon-ef-4.webp",
+   "/img/products/rokinon-xeen-14-16-20-24-35-50-85-135mm-cine-8-lens-bundle-canon-ef-5.webp",
+   "/img/products/rokinon-xeen-14-16-20-24-35-50-85-135mm-cine-8-lens-bundle-canon-ef-6.webp",
+   "/img/products/rokinon-xeen-14-16-20-24-35-50-85-135mm-cine-8-lens-bundle-canon-ef-7.webp",
+   "/img/products/rokinon-xeen-14-16-20-24-35-50-85-135mm-cine-8-lens-bundle-canon-ef-8.webp"
+  ],
+  "highlights": [],
+  "included": [
+   "Rokinon Xeen 14mm T3.1 Lens",
+   "Rokinon Xeen 16mm T2.6 Lens",
+   "Rokinon Xeen 20mm T1.9 Lens",
+   "Rokinon Xeen 24mm T1.5 Lens",
+   "Rokinon Xeen 35mm T1.5 Lens",
+   "Rokinon Xeen 35mm T1.5 Lens",
+   "Rokinon Xeen 50mm T1.5 Lens",
+   "Rokinon Xeen 85mm T1.5 Lens",
+   "Rokinon Xeen 135mm T2.2 Lens"
+  ],
+  "videoUrl": "",
+  "order": 56,
+  "requiresTech": false
+ },
+ {
+  "id": "cooke-sp3-50mm-t2-4-full-frame-prime-lens-sony-e-feet-meters",
+  "name": "Cooke SP3 50mm T2.4 Full-Frame Prime Lens (Sony E, Feet/Meters)",
+  "brand": "Cooke",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "El prime esférico SP3 T2.4 Full Frame. Con el clásico diseño speed Panchro de Cooke, entregado a través de lentes diseñadas para la era digital",
+  "pricePerDay": 125,
+  "stock": 1,
+  "active": true,
+  "featured": true,
+  "images": [
+   "/img/products/cooke-sp3-50mm-t2-4-full-frame-prime-lens-sony-e-feet-meters-0.webp",
+   "/img/products/cooke-sp3-50mm-t2-4-full-frame-prime-lens-sony-e-feet-meters-1.webp",
+   "/img/products/cooke-sp3-50mm-t2-4-full-frame-prime-lens-sony-e-feet-meters-2.webp"
+  ],
+  "highlights": [
+   "Cubre Sensores de Marco Completo, Apertura T2.4",
+   "Compatibles con Cooke Panchro/i Classic lenses",
+   "Classic Cooke Look",
+   "Diseño Ligero y Compacto",
+   "Diámetro Frontal de 64 mm, Rosca de Filtro de 58 mm",
+   "Apertura de 9 cuchillas",
+   "Escalas de Enfoque en Pies y Metros"
+  ],
+  "included": [
+   "Cooke SP3 50mm T2.4 Full-Frame",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "https://cookeoptics.com/lens/sp3/",
+  "order": 57,
+  "requiresTech": false
+ },
+ {
+  "id": "venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl",
+  "name": "Venus Optics LAOWA Pro2be 24mm T8 2x Probe Lens (Direct View, ARRI PL)",
+  "brand": "Venus Optics",
+  "category": "Ópticas",
+  "subcategory": "Lentes",
+  "description": "Capture vistas únicas de primer plano con su cámara de cine de montaje en PL y el LAOWA 24mm T8 Full Frame 2x Lente Pro2be de Venus Óptica. Esta lente de vista directa  es una de una serie que también incluye versiones de 90° periscope y 35°. Cubre hasta sensores de cámara de fotograma completo, es resistente al agua hasta 14.4, se enfoca a solo .",
+  "pricePerDay": 125,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-0.webp",
+   "/img/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-1.webp",
+   "/img/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-2.webp",
+   "/img/products/venus-optics-laowa-pro2be-24mm-t8-2x-probe-lens-direct-view-arri-pl-3.webp"
+  ],
+  "highlights": [
+   "Cubre Formato de Marco Completo",
+   "Lente de Sonda Recta",
+   "Rango de apertura T8 a T40",
+   "20 Barril de lente",
+   "10 Cuchillas Iris",
+   "0.2 Distancia Mínima de Enfoque",
+   "2x Magnificación",
+   "Sumergible a 14.4"
+  ],
+  "included": [
+   "Rokinon Xeen 50mm T1.5 Lens (Canon EF)",
+   "Maleta de transporte"
+  ],
+  "videoUrl": "",
+  "order": 58,
+  "requiresTech": false
+ },
+ {
+  "id": "american-grip-40-century-stand-2-rise-non-spring-load-nsl",
+  "name": "American Grip 40″ Century Stand 2-Rise Non Spring Load (NSL)",
+  "brand": "American Grip",
+  "category": "Gripería",
+  "subcategory": "Stands y trípodes",
+  "description": "",
+  "pricePerDay": 12,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/american-grip-40-century-stand-2-rise-non-spring-load-nsl-0.webp",
+   "/img/products/american-grip-40-century-stand-2-rise-non-spring-load-nsl-1.webp",
+   "/img/products/american-grip-40-century-stand-2-rise-non-spring-load-nsl-2.webp",
+   "/img/products/american-grip-40-century-stand-2-rise-non-spring-load-nsl-3.webp"
+  ],
+  "highlights": [
+   "Huella 37 (94cm)",
+   "Altura Mínima 4'2 (127cm)",
+   "Altura Máxima 10'4 (315cm)",
+   "Peso  12.8 libras (5.8kg)"
+  ],
+  "included": [
+   "40″ Century Stand 2-Rise Non Spring Load",
+   "Extension Arm",
+   "Small Grip Head 2 1/2″"
+  ],
+  "videoUrl": "",
+  "order": 59,
+  "requiresTech": false
+ },
+ {
+  "id": "matthews-baby-plate-3",
+  "name": "Matthews Baby Plate - 3",
+  "brand": "Matthews",
+  "category": "Gripería",
+  "subcategory": "Placas y pines",
+  "description": "Esta es una placa de metal de 3 x 5 con un perno soldado de 5/8 pulgadas que se extiende 3 pulgadas. La placa tiene 8 puntos de anclaje para clavos o tornillos, que no están incluidos. Este artículo se puede utilizar en una pared, o independiente como un soporte de luz a nivel del piso.",
+  "pricePerDay": 3,
+  "stock": 3,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/matthews-baby-plate-3-0.webp"
+  ],
+  "highlights": [],
+  "included": [
+   "baby plate 3¨",
+   "Tornillo 10x3'' avellanado rosca ordinaria"
+  ],
+  "videoUrl": "",
+  "order": 60,
+  "requiresTech": false
+ },
+ {
+  "id": "matthews-baby-plate-6",
+  "name": "Matthews Baby Plate - 6",
+  "brand": "Matthews",
+  "category": "Gripería",
+  "subcategory": "Placas y pines",
+  "description": "Esta es una placa de metal de 3 x 5 con un perno soldado de 5/8 pulgadas que se extiende 6 pulgadas. La placa tiene 8 puntos de anclaje para clavos o tornillos, que no están incluidos. Este artículo se puede utilizar en una pared, o independiente como un soporte de luz a nivel del piso.",
+  "pricePerDay": 3,
+  "stock": 4,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/matthews-baby-plate-6-0.webp"
+  ],
+  "highlights": [],
+  "included": [
+   "Matthews Baby plate - 6”",
+   "Tornillo 10x3'' avellanado rosca ordinaria"
+  ],
+  "videoUrl": "",
+  "order": 61,
+  "requiresTech": false
+ },
+ {
+  "id": "matthews-baby-plate-12",
+  "name": "Matthews Baby Plate - 12",
+  "brand": "Matthews",
+  "category": "Gripería",
+  "subcategory": "Placas y pines",
+  "description": "Esta es una placa de metal de 3 x 5 con un perno soldado de 5/8 pulgadas que se extiende 12 pulgadas. La placa tiene 8 puntos de anclaje para clavos o tornillos, que no están incluidos. Este artículo se puede utilizar en una pared, o independiente como un soporte de luz a nivel del piso.",
+  "pricePerDay": 3,
+  "stock": 6,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/matthews-baby-plate-12-0.webp"
+  ],
+  "highlights": [],
+  "included": [
+   "Matthews Baby Plate - 12",
+   "Tornillo 10x3'' avellanado rosca ordinaria"
+  ],
+  "videoUrl": "",
+  "order": 62,
+  "requiresTech": false
+ },
+ {
+  "id": "matthews-baby-stand-extension-6",
+  "name": "Matthews Baby Stand Extension - 6",
+  "brand": "Matthews",
+  "category": "Gripería",
+  "subcategory": "Stands y trípodes",
+  "description": "Cuando un accesorio de iluminación debe ser 6 pulgadas más alto, esta extensión de soporte se puede agregar a la parte superior de un soporte o Baby Plate que tiene un 5/8 en el semental superior.",
+  "pricePerDay": 3,
+  "stock": 5,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/matthews-baby-stand-extension-6-0.webp",
+   "/img/products/matthews-baby-stand-extension-6-1.webp",
+   "/img/products/matthews-baby-stand-extension-6-2.webp"
+  ],
+  "highlights": [],
+  "included": [
+   "Matthews Baby Stand Extension - 6"
+  ],
+  "videoUrl": "",
+  "order": 63,
+  "requiresTech": false
+ },
+ {
+  "id": "matthews-baby-stand-extension-12",
+  "name": "Matthews Baby Stand Extension - 12",
+  "brand": "Matthews",
+  "category": "Gripería",
+  "subcategory": "Stands y trípodes",
+  "description": "",
+  "pricePerDay": 3,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/matthews-baby-stand-extension-12-0.webp",
+   "/img/products/matthews-baby-stand-extension-12-1.webp"
+  ],
+  "highlights": [
+   "Cuando un accesorio de iluminación debe ser 12 pulgadas más alto, esta extensión de soporte se puede agregar a la parte superior de un soporte o Baby Plate que tiene un 5/8 en el semental superior."
+  ],
+  "included": [
+   "Matthews Baby Stand Extension - 12"
+  ],
+  "videoUrl": "",
+  "order": 64,
+  "requiresTech": false
+ },
+ {
+  "id": "matthews-baby-stand-extension-18",
+  "name": "Matthews Baby Stand Extension - 18",
+  "brand": "Matthews",
+  "category": "Gripería",
+  "subcategory": "Stands y trípodes",
+  "description": "",
+  "pricePerDay": 3,
+  "stock": 5,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/matthews-baby-stand-extension-18-0.webp",
+   "/img/products/matthews-baby-stand-extension-18-1.webp",
+   "/img/products/matthews-baby-stand-extension-18-2.webp"
+  ],
+  "highlights": [
+   "Cuando un accesorio de iluminación necesita ser 18 pulgadas más alto, esta extensión de soporte se puede agregar a la parte superior de un soporte o Baby Plate que tiene un 5/8 en el semental superior."
+  ],
+  "included": [
+   "Matthews Baby Stand Extension - 18"
+  ],
+  "videoUrl": "",
+  "order": 65,
+  "requiresTech": false
+ },
+ {
+  "id": "avenger-c345bk-barrel-clamp-with-t-knob",
+  "name": "Avenger C345BK Barrel Clamp with T-Knob",
+  "brand": "Avenger",
+  "category": "Gripería",
+  "subcategory": "Clamps y cabezales",
+  "description": "fue creado utilizando sugerencias de usuarios profesionales y las últimas técnicas de fabricación de Avenger disponibles. Esta abrazadera de Barril de aleación de aluminio negro tiene varios usos. Tiene una espita extraíble para baby pin  (5/8) y un receptor junior (1 1/8). Tiene un mecanismo de bloqueo T-Knob y un cable de seguridad. \nEsta abrazadera es extremadamente fuerte. Tiene una capacidad de carga de 1323 lb (600kg), debido principalmente a la fundición por gravedad que elimina cualquier tipo de burbujas de aire que se formen dentro del material de fundición. Se montará en cualquier tubería entre 1.65 y 2.04 (42 - 52 mm) de diámetro.",
+  "pricePerDay": 10,
+  "stock": 5,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/avenger-c345bk-barrel-clamp-with-t-knob-0.webp",
+   "/img/products/avenger-c345bk-barrel-clamp-with-t-knob-1.webp",
+   "/img/products/avenger-c345bk-barrel-clamp-with-t-knob-2.webp"
+  ],
+  "highlights": [
+   "Mecanismo de bloqueo de T-Knob",
+   "Construcción de Aleación de Aluminio",
+   "Incluye Cable de Seguridad"
+  ],
+  "included": [
+   "Barrel Clamp with T-Knob."
+  ],
+  "videoUrl": "",
+  "order": 66,
+  "requiresTech": false
+ },
+ {
+  "id": "manfrotto-035-super-clamp-without-stud",
+  "name": "Manfrotto 035 Super Clamp without Stud",
+  "brand": "Manfrotto",
+  "category": "Gripería",
+  "subcategory": "Clamps y cabezales",
+  "description": "El Manfrotto Super Clamp 2915 está hecho de aleación de fundición ligera. La Super Clamp es una herramienta muy versátil y contiene casi cualquier cosa: cámaras, luces, sombrillas, ganchos, estantes, placas de vidrio, barras transversales, incluso otras Super Clamps. A su vez, la Super Clamp se puede montar de forma segura en cualquier tubo de 0.5 a 2.1. Se puede quitar una cuña unida y colocarla en la mandíbula para superficies planas. Un enchufe incorporado permite el uso de más de 30 accesorios para contener cualquier cosa, desde fondos hasta accesorios de iluminación.",
+  "pricePerDay": 3,
+  "stock": 9,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/manfrotto-035-super-clamp-without-stud-0.webp",
+   "/img/products/manfrotto-035-super-clamp-without-stud-1.webp",
+   "/img/products/manfrotto-035-super-clamp-without-stud-2.webp"
+  ],
+  "highlights": [
+   "Aleación de Fundición Ligera",
+   "Mandíbulas abiertas 0.5 a 2.1",
+   "5/8 Receptor"
+  ],
+  "included": [
+   "035 Super Clamp without Stud"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=KRX8wg0A6Os",
+  "order": 67,
+  "requiresTech": false
+ },
+ {
+  "id": "matthews-super-mafer-clamp",
+  "name": "Matthews Super Mafer Clamp",
+  "brand": "Matthews",
+  "category": "Gripería",
+  "subcategory": "Clamps y cabezales",
+  "description": "",
+  "pricePerDay": 3,
+  "stock": 3,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/matthews-super-mafer-clamp-0.webp",
+   "/img/products/matthews-super-mafer-clamp-1.webp",
+   "/img/products/matthews-super-mafer-clamp-2.webp",
+   "/img/products/matthews-super-mafer-clamp-3.webp"
+  ],
+  "highlights": [
+   "Fortalecido para soportar una mayor presión de sujeción que cualquier otra abrazadera de su tipo, ahora puede ser efectivo en aún más usos. Las almohadillas protectoras en las mandíbulas también se han reformulado para una mejor acción de agarre."
+  ],
+  "included": [
+   "Matthews Super Mafer Clamp."
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=PyBry7WxEhY",
+  "order": 68,
+  "requiresTech": false
+ },
+ {
+  "id": "grid-clamp-w-baby-pin",
+  "name": "Grid Clamp w/ Baby Pin",
+  "brand": "Grid",
+  "category": "Gripería",
+  "subcategory": "Clamps y cabezales",
+  "description": "",
+  "pricePerDay": 4,
+  "stock": 6,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/grid-clamp-w-baby-pin-0.webp",
+   "/img/products/grid-clamp-w-baby-pin-1.webp"
+  ],
+  "highlights": [
+   "agarre 1 1/4 (3.17cm) a 1 1/2 (3.81cm) de tubería y soporta accesorios con 5/8 (16mm) Baby receptores."
+  ],
+  "included": [
+   "Grid Clamp w/ Baby Pin"
+  ],
+  "videoUrl": "",
+  "order": 69,
+  "requiresTech": false
+ },
+ {
+  "id": "avenger-c4462-mp-coupler-with-5-8-16-mm-spigot",
+  "name": "Avenger C4462 MP Coupler with 5/8 (16 mm) Spigot",
+  "brand": "Avenger",
+  "category": "Gripería",
+  "subcategory": "Clamps y cabezales",
+  "description": "El Avenger C4462 MP Acoplador con 5/8 (16 mm) Spigot es ideal para suspender luces de longitudes de tuberías o trussing en teatros, en sets de películas o lugares públicos.",
+  "pricePerDay": 4,
+  "stock": 5,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/avenger-c4462-mp-coupler-with-5-8-16-mm-spigot-0.webp",
+   "/img/products/avenger-c4462-mp-coupler-with-5-8-16-mm-spigot-1.webp",
+   "/img/products/avenger-c4462-mp-coupler-with-5-8-16-mm-spigot-2.webp"
+  ],
+  "highlights": [
+   "Construcción de Aleación de Aluminio",
+   "Capacidad de carga: 1,102 lb"
+  ],
+  "included": [
+   "Avenger C4462 MP Coupler with 5/8 (16 mm) Spigot"
+  ],
+  "videoUrl": "",
+  "order": 70,
+  "requiresTech": false
+ },
+ {
+  "id": "matthews-big-ben-clamp",
+  "name": "Matthews Big Ben Clamp",
+  "brand": "Matthews",
+  "category": "Gripería",
+  "subcategory": "Clamps y cabezales",
+  "description": "El Big Ben Clamp de Mateo es una abrazadera de tipo cheeseboro con un pasador de 1-1/8. Sirve para múltiples propósitos y se puede utilizar con una tubería con diámetros de 1-1/4 a 1-1/2 como una rejilla aérea temporal. La tubería también se puede manipular a nivel del suelo emparejando la abrazadera Big Ben con un soporte junior.",
+  "pricePerDay": 6,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/matthews-big-ben-clamp-0.webp"
+  ],
+  "highlights": [
+   "1-1/8 Pin Adjunto",
+   "Se adapta a 1-1/4 a 1-1/2 Diámetro Tubo"
+  ],
+  "included": [
+   "Big Ben Clamp"
+  ],
+  "videoUrl": "https://youtu.be/68c4zsKS4-M",
+  "order": 71,
+  "requiresTech": false
+ },
+ {
+  "id": "avenger-c210d-baby-pipe-clamp-without-tommy-bar",
+  "name": "Avenger C210D Baby Pipe Clamp without Tommy Bar",
+  "brand": "Avenger",
+  "category": "Gripería",
+  "subcategory": "Clamps y cabezales",
+  "description": "El Avenger C210C Baby Pipe Clamp sin Tommy Bar se sujeta a tuberías con diámetros de 0.39 a 2.16. Tiene un perno de montaje de 5/8 y una capacidad de carga de 220.46 lb (100 kg). Se incluye un cable de seguridad.",
+  "pricePerDay": 6,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/avenger-c210d-baby-pipe-clamp-without-tommy-bar-0.webp",
+   "/img/products/avenger-c210d-baby-pipe-clamp-without-tommy-bar-1.webp"
+  ],
+  "highlights": [
+   "5/8 Pin",
+   "Construcción de Aleación de Aluminio",
+   "220.46 lb Capacidad de carga"
+  ],
+  "included": [
+   "Baby Pipe Clamp without Tommy Bar."
+  ],
+  "videoUrl": "",
+  "order": 72,
+  "requiresTech": false
+ },
+ {
+  "id": "avenger-c100-junior-pipe-clamp-with-tommy-bar-and-pad",
+  "name": "Avenger C100 Junior Pipe Clamp with Tommy Bar and Pad",
+  "brand": "Avenger",
+  "category": "Gripería",
+  "subcategory": "Clamps y cabezales",
+  "description": "",
+  "pricePerDay": 6,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/avenger-c100-junior-pipe-clamp-with-tommy-bar-and-pad-0.webp",
+   "/img/products/avenger-c100-junior-pipe-clamp-with-tommy-bar-and-pad-1.webp"
+  ],
+  "highlights": [
+   "Construcción de Aleación de Aluminio",
+   "Capacidad de peso: 551 lb."
+  ],
+  "included": [
+   "Junior Pipe Clamp with Tommy Bar and Pad."
+  ],
+  "videoUrl": "",
+  "order": 73,
+  "requiresTech": false
+ },
+ {
+  "id": "american-grip-4-large-double-grip-head-lollipop-rh01d",
+  "name": "American Grip 4 Large Double Grip Head Lollipop RH01D",
+  "brand": "American Grip",
+  "category": "Gripería",
+  "subcategory": "Clamps y cabezales",
+  "description": "",
+  "pricePerDay": 6,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/american-grip-4-large-double-grip-head-lollipop-rh01d-0.webp",
+   "/img/products/american-grip-4-large-double-grip-head-lollipop-rh01d-1.webp",
+   "/img/products/american-grip-4-large-double-grip-head-lollipop-rh01d-2.webp"
+  ],
+  "highlights": [
+   "1-1/8 Pin Junior",
+   "Construcción de Aluminio"
+  ],
+  "included": [
+   "Large Double Grip Head Lollipop RH01D"
+  ],
+  "videoUrl": "",
+  "order": 74,
+  "requiresTech": false
+ },
+ {
+  "id": "american-grip-menace-arm-kit",
+  "name": "American Grip Menace Arm Kit",
+  "brand": "American Grip",
+  "category": "Gripería",
+  "subcategory": "Brazos y extensiones",
+  "description": "",
+  "pricePerDay": 20,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/american-grip-menace-arm-kit-0.webp",
+   "/img/products/american-grip-menace-arm-kit-1.webp",
+   "/img/products/american-grip-menace-arm-kit-2.webp"
+  ],
+  "highlights": [
+   "American Grip Menace Arm Kit es el método más fácil y seguro de armar en una luz. Pon la luz en la posición perfecta. Fácil de tweek luz si el disparo cambia. El adaptador frontal tiene (2) Baby Pins y (1) Junior Receiver incorporados. Permite el montaje de accesorios de agarre como una bandera o marco. Se adapta: 1 1/4 Tubo de Riel de Velocidad de Aluminio"
+  ],
+  "included": [
+   "(1) Centro Post 9",
+   "(1) Front Baby /Montaje de Tubería Junior",
+   "(1) Montaje de Bolsa de Arena Trasera",
+   "Soporte, cabeza central, sacos de arena, correa de trinquete, luz, brazo de agarre, cabeza de agarre, seda (se muestra en la foto) NO INCLUIDO"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=Q5VJOlO4XeE",
+  "order": 75,
+  "requiresTech": false
+ },
+ {
+  "id": "american-grip-high-roller-3-rise-jr-grip-head-r-m-leg",
+  "name": "American Grip High Roller 3-Rise Jr.Grip Head R/M Leg",
+  "brand": "American Grip",
+  "category": "Gripería",
+  "subcategory": "Stands y trípodes",
+  "description": "",
+  "pricePerDay": 25,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/american-grip-high-roller-3-rise-jr-grip-head-r-m-leg-0.webp",
+   "/img/products/american-grip-high-roller-3-rise-jr-grip-head-r-m-leg-1.webp",
+   "/img/products/american-grip-high-roller-3-rise-jr-grip-head-r-m-leg-2.webp"
+  ],
+  "highlights": [
+   "Huella 5' (152.4cm)",
+   "Altura Mínima 6'11 (210.8cm)",
+   "Altura Máxima 20'9 (632.5cm)",
+   "Peso 42 libras (19.1kg)"
+  ],
+  "included": [
+   "High Roller 3-Rise Jr.Grip Head R/M Leg"
+  ],
+  "videoUrl": "https://americangrip.com/product/high-high-roller-3-rise-jr-grip-head-rm-leg/",
+  "order": 76,
+  "requiresTech": false
+ },
+ {
+  "id": "american-grip-baby-3-rise-r-m-leg-3-4-x-30",
+  "name": "American GRIP Baby 3-Rise R/M Leg 3/4″ x 30″",
+  "brand": "American Grip",
+  "category": "Gripería",
+  "subcategory": "Stands y trípodes",
+  "description": "",
+  "pricePerDay": 15,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/american-grip-baby-3-rise-r-m-leg-3-4-x-30-0.webp",
+   "/img/products/american-grip-baby-3-rise-r-m-leg-3-4-x-30-1.webp",
+   "/img/products/american-grip-baby-3-rise-r-m-leg-3-4-x-30-2.webp"
+  ],
+  "highlights": [
+   "Huella 45 (114.3cm)",
+   "Altura Mínima 44 (111.8cm)",
+   "Altura Máxima 12'5 (378.5cm)",
+   "Peso 12.25 Lbs (5.6kg)"
+  ],
+  "included": [
+   "Baby 3-Rise R/M Leg 3/4″ x 30″"
+  ],
+  "videoUrl": "",
+  "order": 77,
+  "requiresTech": false
+ },
+ {
+  "id": "american-grip-high-walker-3-rise-r-m-leg-1-x-54",
+  "name": "American Grip High Walker 3-Rise R/M Leg 1″ x 54″",
+  "brand": "American Grip",
+  "category": "Gripería",
+  "subcategory": "Stands y trípodes",
+  "description": "",
+  "pricePerDay": 25,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/american-grip-high-walker-3-rise-r-m-leg-1-x-54-0.webp",
+   "/img/products/american-grip-high-walker-3-rise-r-m-leg-1-x-54-1.webp",
+   "/img/products/american-grip-high-walker-3-rise-r-m-leg-1-x-54-2.webp"
+  ],
+  "highlights": [
+   "Huella 6'8 (203.2cm)",
+   "Altura Mínima 5'4 (162.6cm)",
+   "Altura Máxima 19'1 (581.7cm)",
+   "Peso 41.5 libras (18.8kg)"
+  ],
+  "included": [
+   "High Walker 3-Rise R/M Leg 1″ x 54″"
+  ],
+  "videoUrl": "",
+  "order": 78,
+  "requiresTech": false
+ },
+ {
+  "id": "american-grip-heavy-duty-combo-3-rise-r-m-leg-1-x-42",
+  "name": "American Grip Heavy Duty Combo 3-Rise R/M Leg 1″ x 42″",
+  "brand": "American Grip",
+  "category": "Gripería",
+  "subcategory": "Stands y trípodes",
+  "description": "",
+  "pricePerDay": 25,
+  "stock": 5,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/american-grip-heavy-duty-combo-3-rise-r-m-leg-1-x-42-0.webp",
+   "/img/products/american-grip-heavy-duty-combo-3-rise-r-m-leg-1-x-42-1.webp",
+   "/img/products/american-grip-heavy-duty-combo-3-rise-r-m-leg-1-x-42-2.webp"
+  ],
+  "highlights": [
+   "Huella 4'9 (144.8cm)",
+   "Altura Mínima 4'3 (129.5cm)",
+   "Altura Máxima 14'3 (434.3cm)",
+   "Peso 30.5 libras (13.8kg)"
+  ],
+  "included": [
+   "Heavy Duty Combo 3-Rise R/M Leg 1″ x 42″"
+  ],
+  "videoUrl": "",
+  "order": 79,
+  "requiresTech": false
+ },
+ {
+  "id": "american-grip-roadrunner-220",
+  "name": "American Grip  Roadrunner 220",
+  "brand": "American Grip",
+  "category": "Gripería",
+  "subcategory": "Stands y trípodes",
+  "description": "El American Grip RoadRunner 220 Crank Up Stand RDRR es un soporte de manivela de alta calidad de última generación que está cargado de características innovadoras. Baja altura de trabajo para facilitar el montaje de las luces. Tiene neumáticos, ruedas de bloqueo direccional y frenos en cada rueda. El soporte Roadrunner 220 es seguro, fácil de usar y funciona con una sola mano que no requiere botones para presionar mientras arranca Min height=50, Max Height=11' 3 Lbs.=115",
+  "pricePerDay": 80,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/american-grip-roadrunner-220-0.webp",
+   "/img/products/american-grip-roadrunner-220-1.webp",
+   "/img/products/american-grip-roadrunner-220-2.webp",
+   "/img/products/american-grip-roadrunner-220-3.webp"
+  ],
+  "highlights": [
+   "Huella Huella 6'2 (188cm)",
+   "Altura Mínima 4'2 (127cm)",
+   "Altura Máxima 11'3 (342.9cm)",
+   "Peso 145 libras (65.8kg)"
+  ],
+  "included": [
+   "Roadrunner 220"
+  ],
+  "videoUrl": "",
+  "order": 80,
+  "requiresTech": true
+ },
+ {
+  "id": "american-grip-low-combo-2-rise-r-m-leg-3-4-x-22",
+  "name": "American Grip Low Combo 2-Rise R/M Leg 3/4″ x 22″",
+  "brand": "American Grip",
+  "category": "Gripería",
+  "subcategory": "Stands y trípodes",
+  "description": "",
+  "pricePerDay": 15,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "images": [
+   "/img/products/american-grip-low-combo-2-rise-r-m-leg-3-4-x-22-0.webp",
+   "/img/products/american-grip-low-combo-2-rise-r-m-leg-3-4-x-22-1.webp",
+   "/img/products/american-grip-low-combo-2-rise-r-m-leg-3-4-x-22-2.webp"
+  ],
+  "highlights": [
+   "Huella 34 (86.4cm)",
+   "Altura Mínima 32 (81.3cm)",
+   "Altura Máxima 5'6 (167.6cm)",
+   "Peso 14 lbs (6.4kg)"
+  ],
+  "included": [
+   "Low Combo 2-Rise R/M Leg 3/4″ x 22″"
+  ],
+  "videoUrl": "",
+  "order": 81,
+  "requiresTech": false
+ },
+ {
+  "id": "dana-dolly-portable-dolly-system-rental-kit",
+  "name": "Dana Dolly Portable Dolly System Rental Kit",
+  "brand": "Dana Dolly",
+  "category": "Gripería",
+  "subcategory": "Dolly",
+  "description": "",
+  "pricePerDay": 125,
+  "stock": 1,
+  "active": true,
+  "featured": true,
+  "images": [
+   "/img/products/dana-dolly-portable-dolly-system-rental-kit-0.webp",
+   "/img/products/dana-dolly-portable-dolly-system-rental-kit-1.webp",
+   "/img/products/dana-dolly-portable-dolly-system-rental-kit-2.webp",
+   "/img/products/dana-dolly-portable-dolly-system-rental-kit-3.webp",
+   "/img/products/dana-dolly-portable-dolly-system-rental-kit-4.webp",
+   "/img/products/dana-dolly-portable-dolly-system-rental-kit-5.webp",
+   "/img/products/dana-dolly-portable-dolly-system-rental-kit-6.webp"
+  ],
+  "highlights": [
+   "16 Ruedas de Pista Dolly Personalizadas",
+   "Ruedas de Pista de Poliuretano Suave",
+   "Rodamientos de Precisión con Clasificación ABEC-7",
+   "Para 1.5 a 1.9 O.D. Tubo",
+   "Soporta 100 lb de Cámara y Accesorios",
+   "Soporte de Centro",
+   "1/4-20 y 3/816 Agujeros de Accesorios",
+   "Incluye Adaptadores de Tazón de 75, 100 y 150 mm",
+   "Incluye maleta de Vuelo Personalizado",
+   "soporte Mitchell estándar"
+  ],
+  "included": [
+   "2 x Final de Pista Universal",
+   "Soporte de Centro",
+   "adaptador de Tazón de 75 mm",
+   "adaptador de Tazón de 100 mm",
+   "adaptador de Tazón de 150 mm",
+   "Herramienta T",
+   "Montaje Monitor",
+   "Low Combo 2-Rise R/M Leg 3/4″ x 22″",
+   "2x 1-1/4 TUBO GALVANIZADO 12 FT"
+  ],
+  "videoUrl": "https://vimeo.com/449857155",
+  "order": 82,
+  "requiresTech": true
+ }
+]
