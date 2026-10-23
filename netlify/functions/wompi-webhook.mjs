@@ -1,7 +1,9 @@
 // Webhook de Wompi: marca pagos como recibidos cuando la transacción es aprobada.
 import { getQuote, saveQuote, computeTotals, round2 } from "./lib/store.mjs";
 import { verifyWebhook, getTransaction } from "./lib/wompi.mjs";
-import { json } from "./lib/auth.mjs";
+import { json, env } from "./lib/auth.mjs";
+import { getSettings } from "./lib/store.mjs";
+import { mailPaid } from "./lib/mail.mjs";
 
 export default async (req) => {
   if (req.method !== "POST") return json({ error: "Método no permitido" }, 405);
@@ -44,6 +46,10 @@ export default async (req) => {
     q.history.push({ at: now, text: `Intento de pago Wompi no aprobado (${data.ResultadoTransaccion || "sin resultado"})` });
   }
   await saveQuote(q);
+  if (approved && p.paidAt === now) {
+    const site = env("URL") || new URL(req.url).origin;
+    mailPaid(q, p, `${site}/cotizacion.html?c=${encodeURIComponent(q.code)}&k=${encodeURIComponent(q.key)}`, await getSettings()).catch(() => {});
+  }
   return json({ ok: true });
 };
 

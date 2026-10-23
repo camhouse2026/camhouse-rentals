@@ -4,8 +4,13 @@ import {
   getProducts, getSettings, getQuote, saveQuote, nextQuoteCode, rentalDays,
   computeTotals, publicQuote, imagesStore, round2, dayDiscountFor,
 } from "./lib/store.mjs";
-import { json } from "./lib/auth.mjs";
+import { json, env } from "./lib/auth.mjs";
 import { wompiConfigured } from "./lib/wompi.mjs";
+import { mailQuoteCreated, mailSigned, mailPaid, mailFind } from "./lib/mail.mjs";
+import { listQuotes } from "./lib/store.mjs";
+
+const siteUrl = (req) => (env("URL") && !env("NETLIFY_DEV") ? env("URL") : new URL(req.url).origin);
+const quoteLink = (req, q) => `${siteUrl(req)}/cotizacion.html?c=${encodeURIComponent(q.code)}&k=${encodeURIComponent(q.key)}`;
 
 const clean = (s, max = 300) => String(s ?? "").trim().slice(0, max);
 const isDate = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s || "");
@@ -85,17 +90,19 @@ export default async (req) => {
     };
     q.estimate = computeTotals(q);
     await saveQuote(q);
+    mailQuoteCreated(q, quoteLink(req, q), settings).catch(() => {});
     return json({ code: q.code, key: q.key, totals: q.estimate }, 201);
   }
 
-  // --- Recuperar enlace: código + correo con que se cotizó ---
+  // --- Recuperar cotizaciones: se envían por correo ---
   if (path === "/api/quotes/find" && req.method === "POST") {
     let b; try { b = await req.json(); } catch { return json({ error: "Solicitud inválida" }, 400); }
-    const code = clean(b.code, 20).toUpperCase().replace(/\s+/g, "");
     const email = clean(b.email, 160).toLowerCase();
-    const q = code ? await getQuote(code) : null;
-    if (!q || q.client.email.toLowerCase() !== email) return json({ error: "No encontramos una cotización con ese código y correo." }, 400);
-    return json({ code: q.code, key: q.key });
+    if (!/^\S+@\S+\.\S+$/.test(email)) return json({ error: "Escriba un correo válido." }, 400);
+    const settings = await getSettings();
+    const all = (await listQuotes()).filter((q) => q.client.email.toLowerCase() === email).slice(0, 10);
+    if (all.length) mailFind(email, all, siteUrl(req), settings).catch(() => {});
+    return json({ ok: true });
   }
 
   // --- Consultar cotización (cliente) / pago simulado ---
@@ -124,6 +131,7 @@ export default async (req) => {
       };
       q.history.push({ at: q.signature.signedAt, text: `Pagaré firmado electrónicamente por ${name} por $${amount.toFixed(2)}` });
       await saveQuote(q);
+      mailSigned(q, quoteLink(req, q), settings).catch(() => {});
       return json(publicQuote(q));
     }
 
@@ -138,6 +146,7 @@ export default async (req) => {
         q.status = t.balance <= 0.009 ? "pagada" : "anticipo_pagado";
         q.history.push({ at: p.paidAt, text: `Pago simulado recibido: $${round2(p.amount).toFixed(2)} (${p.label})` });
         await saveQuote(q);
+        mailPaid(q, p, quoteLink(req, q), await getSettings()).catch(() => {});
       }
       return json(publicQuote(q));
     }

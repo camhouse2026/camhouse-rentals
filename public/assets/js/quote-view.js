@@ -166,24 +166,22 @@
   if (!code || !key) {
     doc.innerHTML = `
       <span class="eyebrow">Seguimiento</span>
-      <h1 class="display" style="font-size:36px;margin:8px 0 10px">Recuperar mi cotización</h1>
-      <p style="color:var(--muted);font-size:14px;max-width:520px">Escriba el código de su cotización (por ejemplo CH-1002) y el correo con el que la envió. Le abriremos su enlace de seguimiento con el estado actual.</p>
+      <h1 class="display" style="font-size:36px;margin:8px 0 10px">Mis cotizaciones</h1>
+      <p style="color:var(--muted);font-size:14px;max-width:520px">Escriba el correo con el que cotizó y le enviaremos un mensaje con los enlaces de sus cotizaciones para ver su estado, firmar el pagaré o pagar.</p>
       <form id="findForm" class="form-grid" style="max-width:520px;margin-top:18px">
-        <div class="field"><label for="fCode">Código</label><input id="fCode" placeholder="CH-1002" required></div>
-        <div class="field"><label for="fEmail">Correo</label><input id="fEmail" type="email" required></div>
+        <div class="field full"><label for="fEmail">Correo</label><input id="fEmail" type="email" required placeholder="su@correo.com"></div>
         <div id="findErr" class="alert full" style="display:none"></div>
-        <div class="full"><button class="btn btn-lime" id="findBtn">Abrir mi cotización<span class="arrow">${icon("arrow")}</span></button></div>
+        <div class="full"><button class="btn btn-lime" id="findBtn">Enviarme mis cotizaciones<span class="arrow">${icon("send")}</span></button></div>
       </form>`;
     document.getElementById("findForm").onsubmit = async (e) => {
       e.preventDefault();
       const err = document.getElementById("findErr"); err.style.display = "none";
       const btn = document.getElementById("findBtn"); btn.disabled = true;
       try {
-        const r = await fetch("/api/quotes/find", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ code: document.getElementById("fCode").value, email: document.getElementById("fEmail").value }) });
+        const r = await fetch("/api/quotes/find", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ email: document.getElementById("fEmail").value }) });
         const d = await r.json();
-        if (!r.ok) throw new Error(d.error || "No encontrada");
-        window.CH.remember({ code: d.code, key: d.key, at: Date.now() });
-        location.href = `/cotizacion.html?c=${encodeURIComponent(d.code)}&k=${encodeURIComponent(d.key)}`;
+        if (!r.ok) throw new Error(d.error || "No se pudo enviar");
+        doc.innerHTML = `<div class="success"><div class="big-ico">${icon("mail")}</div><h3>Revise su correo</h3><p style="color:var(--muted)">Si hay cotizaciones asociadas a ese correo, en unos minutos recibirá un mensaje con los enlaces. Revise también la carpeta de spam.</p><a class="btn btn-dark" href="/" style="margin-top:10px">Volver al catálogo</a></div>`;
       } catch (ex) { err.textContent = ex.message; err.style.display = ""; btn.disabled = false; }
     };
     return;

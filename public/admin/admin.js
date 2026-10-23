@@ -13,6 +13,7 @@
     menu: '<path d="M4 7h16M4 12h16M4 17h16"/>',
     card: '<rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19M6 15h4"/>',
     back: '<path d="m15 18-6-6 6-6"/>',
+    mail: '<rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3 7 9 6 9-6"/>',
   };
   const icon = (n, a = "") => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ${a}>${P[n]}</svg>`;
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -84,6 +85,7 @@
           <a class="nav-item" href="/" target="_blank">${icon("ext")} Ver sitio</a>
           <div class="spacer"></div>
           <div class="mode ${status.wompi ? "ok" : "warn"}"><b>${status.wompi ? "Wompi conectado" : "Wompi en modo prueba"}</b>${status.wompi ? "Los enlaces de pago son reales." : "Configure WOMPI_CLIENT_ID y WOMPI_CLIENT_SECRET en Netlify."}</div>
+          <div class="mode ${status.mail ? "ok" : "warn"}" style="margin-top:6px"><b>${status.mail ? "Correos activos" : "Correos desactivados"}</b>${status.mail ? "El cliente recibe avisos por correo." : "Configure BREVO_API_KEY en Netlify."}</div>
           <a class="nav-item" href="#" id="logoutBtn">${icon("out")} Salir</a>
         </aside>
         <main class="main" id="main">${content}</main>
@@ -249,6 +251,8 @@
             <div class="box">
               <h2>Estado</h2>
               <select class="select" id="stSel" style="width:100%;height:44px;border-radius:12px">${Object.entries(STATUS).map(([k, v]) => `<option value="${k}" ${draft.status === k ? "selected" : ""}>${v}</option>`).join("")}</select>
+              <button class="btn btn-dark btn-block sm" id="mailBtn" style="margin-top:12px" ${dirty || !status.mail ? "disabled" : ""}>Enviar cotización por correo${icon("mail", 'width="16" height="16"')}</button>
+              <p class="muted" style="font-size:12px;margin:8px 0 0">${status.mail ? `Envía a ${esc(q.client.email)} el estado actual, el mensaje para el cliente y su enlace.` : "Active los correos (BREVO_API_KEY) para usar este botón."}</p>
             </div>
             <div class="box">
               <h2>Pagos ${status.wompi ? "" : `<span class="mini pendiente">Modo prueba</span>`}</h2>
@@ -329,6 +333,11 @@
           t.closest("#linkBtn").disabled = true;
           q = { ...(await api(`/quotes/${code}/payment-link`, { method: "POST", body: { amount, label } })), publicUrl: q.publicUrl, conflicts: q.conflicts };
           draft.status = q.status; draw(); toast("Enlace de pago generado");
+        }
+        else if (t.closest("#mailBtn")) {
+          t.closest("#mailBtn").disabled = true;
+          q = { ...(await api(`/quotes/${code}/send-email`, { method: "POST", body: {} })), publicUrl: q.publicUrl, conflicts: q.conflicts };
+          draw(); toast("Correo enviado al cliente");
         }
         else if (t.closest("#manualBtn")) {
           const amount = prompt("Monto recibido (USD):", calc().balance);

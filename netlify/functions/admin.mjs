@@ -6,6 +6,7 @@ import {
 } from "./lib/store.mjs";
 import { checkPassword, issueToken, isAuthorized, json, env } from "./lib/auth.mjs";
 import { createPaymentLink, wompiConfigured } from "./lib/wompi.mjs";
+import { mailQuoteUpdate, mailConfigured } from "./lib/mail.mjs";
 
 const STATUSES = ["nueva", "en_revision", "confirmada", "pago_pendiente", "anticipo_pagado", "pagada", "entregada", "cerrada", "cancelada"];
 const slug = (s) => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 70);
@@ -27,7 +28,7 @@ export default async (req) => {
 
   // ---------- Estado general ----------
   if (path === "/status" && method === "GET") {
-    return json({ wompi: wompiConfigured(), site: siteUrl(req) });
+    return json({ wompi: wompiConfigured(), mail: mailConfigured(), site: siteUrl(req) });
   }
 
   // ---------- Ajustes ----------
@@ -106,7 +107,7 @@ export default async (req) => {
     })));
   }
 
-  const qm = path.match(/^\/quotes\/([A-Z0-9-]+)(\/payment-link|\/manual-payment|\/payments\/([A-Za-z0-9-]+))?$/);
+  const qm = path.match(/^\/quotes\/([A-Z0-9-]+)(\/payment-link|\/manual-payment|\/send-email|\/payments\/([A-Za-z0-9-]+))?$/);
   if (qm) {
     const q = await getQuote(qm[1]);
     if (!q) return json({ error: "Cotización no encontrada" }, 404);
@@ -162,11 +163,27 @@ export default async (req) => {
         q.payments.push({ id: `P${n}`, reference, label, amount, status: "pendiente", url: link.url, idEnlace: link.idEnlace, mock: link.mock, createdAt: now });
         if (["nueva", "en_revision", "confirmada"].includes(q.status)) q.status = "pago_pendiente";
         q.history.push({ at: now, text: `Enlace de pago generado: $${amount.toFixed(2)} (${label})${link.mock ? " — modo prueba" : ""}` });
+        if (mailConfigured() && b.notify !== false) {
+          const r = await mailQuoteUpdate(q, `${siteUrl(req)}/cotizacion.html?c=${q.code}&k=${q.key}`, settings, q.clientMessage || "");
+          if (r.ok) q.history.push({ at: now, text: `Correo con enlace de pago enviado a ${q.client.email}` });
+        }
         await saveQuote(q);
         return json({ ...q, totals: computeTotals(q) });
       } catch (e) {
         return json({ error: `No se pudo generar el enlace en Wompi. ${e.message}` }, 502);
       }
+    }
+
+    if (qm[2] === "/send-email" && method === "POST") {
+      if (!mailConfigured()) return json({ error: "El envío de correos no está configurado (BREVO_API_KEY)." }, 400);
+      const b = await req.json().catch(() => ({}));
+      const settings = await getSettings();
+      const link = `${siteUrl(req)}/cotizacion.html?c=${q.code}&k=${q.key}`;
+      const r = await mailQuoteUpdate(q, link, settings, String(b.message || q.clientMessage || ""));
+      if (!r.ok) return json({ error: "No se pudo enviar el correo. Revise la clave de Brevo y el remitente verificado." }, 502);
+      q.history.push({ at: now, text: `Correo enviado al cliente (${q.client.email})` });
+      await saveQuote(q);
+      return json({ ...q, totals: computeTotals(q) });
     }
 
     if (qm[2] === "/manual-payment" && method === "POST") {
