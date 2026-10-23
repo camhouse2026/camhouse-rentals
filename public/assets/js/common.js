@@ -460,11 +460,13 @@
   const productCard = (p) => `
     <article class="card">
       <div class="card-media">
-        <span class="card-tag">${esc(p.subcategory || p.category)}</span>
-        ${p.requiresTech ? `<span class="card-stock tech" title="Sale únicamente con técnico de CamHouse">${icon("wrench", 'width="11" height="11"')} Con técnico</span>` : p.stock > 1 ? `<span class="card-stock">${p.stock} disp.</span>` : ""}
         <img src="${esc(p.images?.[0] || "")}" alt="${esc(p.name)}" loading="lazy">
       </div>
       <div class="card-body">
+        <div class="card-meta">
+          <span class="card-tag">${esc(p.subcategory || p.category)}</span>
+          ${p.requiresTech ? `<span class="card-stock tech" title="Sale únicamente con técnico de CamHouse">${icon("wrench", 'width="11" height="11"')} Con técnico</span>` : p.stock > 1 ? `<span class="card-stock">${p.stock} disp.</span>` : ""}
+        </div>
         <span class="card-brand">${esc(p.brand)}</span>
         <h3 class="card-name"><a class="stretch" href="/producto.html?id=${encodeURIComponent(p.id)}">${esc(p.name)}</a></h3>
         <div class="card-foot">
