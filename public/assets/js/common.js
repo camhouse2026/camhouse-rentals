@@ -330,26 +330,12 @@
       if (!r.ok) throw new Error(res.error || "No se pudo enviar");
       lastResult = res;
       remember({ code: res.code, key: res.key, at: Date.now(), total: res.totals?.total });
-      notifyByNetlifyForm(res, data).catch(() => {});
       state.items = []; emit(); step = 3;
     } catch (e) {
       errorMsg = e.message || "No se pudo enviar. Intente de nuevo.";
     } finally {
       submitting = false; renderDrawer();
     }
-  }
-
-  // Envía un resumen a Netlify Forms para que CamHouse reciba notificación por correo.
-  async function notifyByNetlifyForm(res, c) {
-    const products = await api.products();
-    const byId = Object.fromEntries(products.map((p) => [p.id, p]));
-    const detalle = state.items.map((i) => `${i.qty} x ${byId[i.id]?.name || i.id}`).join("\n");
-    const body = new URLSearchParams({
-      "form-name": "pre-cotizacion", codigo: res.code, nombre: c.name, empresa: c.company || "", email: c.email, telefono: c.phone,
-      fechas: `${state.startDate} a ${state.endDate}`, total_estimado: money2(res.totals?.total), detalle, comentarios: c.notes || "",
-      enlace: `${location.origin}/admin/#/cotizaciones/${res.code}`,
-    });
-    await fetch("/", { method: "POST", headers: { "content-type": "application/x-www-form-urlencoded" }, body });
   }
 
   // Cotizaciones recordadas en este navegador

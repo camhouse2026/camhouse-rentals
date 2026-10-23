@@ -39,8 +39,7 @@ Catálogo de renta de equipo audiovisual con pre-cotización en línea, panel ad
 
 4. Vuelva a publicar (Deploys → Trigger deploy) para que tome las variables.
 5. **Correos al cliente (Brevo):** cree una cuenta en brevo.com, verifique el remitente (Senders & IP → Add sender) y copie la clave en SMTP & API → API Keys. El sitio envía: confirmación de pre-cotización, aviso al confirmar/generar enlace de pago (automático y con el botón "Enviar cotización por correo" del panel), copia del pagaré firmado, recibo de pago y la página "Mis cotizaciones" (el cliente escribe su correo y recibe sus enlaces).
-6. **Aviso interno por Netlify Forms:** en Netlify → *Forms* habilite la detección de formularios; aparecerá el formulario `pre-cotizacion`. En *Form notifications* agregue el correo de CamHouse.
-7. Entre a `/admin/` → **Ajustes** y complete el WhatsApp (con 503), correo, dirección, IVA y % de anticipo sugerido.
+6. Entre a `/admin/` → **Ajustes** y complete el WhatsApp (con 503), correo, dirección, IVA y % de anticipo sugerido.
 
 ### Wompi
 
