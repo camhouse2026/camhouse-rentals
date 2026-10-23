@@ -88,6 +88,16 @@ export default async (req) => {
     return json({ code: q.code, key: q.key, totals: q.estimate }, 201);
   }
 
+  // --- Recuperar enlace: código + correo con que se cotizó ---
+  if (path === "/api/quotes/find" && req.method === "POST") {
+    let b; try { b = await req.json(); } catch { return json({ error: "Solicitud inválida" }, 400); }
+    const code = clean(b.code, 20).toUpperCase().replace(/\s+/g, "");
+    const email = clean(b.email, 160).toLowerCase();
+    const q = code ? await getQuote(code) : null;
+    if (!q || q.client.email.toLowerCase() !== email) return json({ error: "No encontramos una cotización con ese código y correo." }, 400);
+    return json({ code: q.code, key: q.key });
+  }
+
   // --- Consultar cotización (cliente) / pago simulado ---
   const m = path.match(/^\/api\/quotes\/([A-Z0-9-]+)(\/mock-pay|\/sign)?$/);
   if (m) {

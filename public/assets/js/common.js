@@ -152,6 +152,7 @@
           <h4>Renta</h4>
           <a href="/#como-funciona">Cómo rentar</a>
           <a href="/terminos.html">Cláusulas y condiciones</a>
+          <a href="/cotizacion.html">Recuperar mi cotización</a>
           <a href="#" data-open-cart>Mi cotización</a>
         </div>
         <div>
@@ -239,13 +240,14 @@
       foot.innerHTML = `
         <a class="btn btn-dark btn-block" href="${link}">Ver seguimiento<span class="arrow">${icon("arrow")}</span></a>
         <a class="btn btn-ghost btn-block" style="margin-top:10px;justify-content:center" href="${wa}" target="_blank" rel="noopener">${icon("whatsapp", 'width="18" height="18"')} Enviar por WhatsApp</a>
-        <button class="btn btn-ghost btn-block" style="margin-top:10px;justify-content:center" data-act="new">Nueva cotización</button>`;
+        <button class="btn btn-ghost btn-block" style="margin-top:10px;justify-content:center" data-act="new">Nueva cotización</button>
+        <p class="note" style="margin:12px 0 0;text-align:center">Guarde el enlace de seguimiento: con él podrá ver los cambios, firmar el pagaré y pagar. También lo encontrará en "Mi cotización" en este navegador.</p>`;
       return;
     }
 
     if (!t.lines.length) {
       step = 1;
-      body.innerHTML = `<div class="empty-cart">${icon("clipboard")}<p><b style="color:var(--ink)">Su lista está vacía</b><br>Agregue equipos del catálogo para armar su pre-cotización.</p></div>`;
+      body.innerHTML = `<div class="empty-cart">${icon("clipboard")}<p><b style="color:var(--ink)">Su lista está vacía</b><br>Agregue equipos del catálogo para armar su pre-cotización.</p></div>${myQuotesHtml()}`;
       foot.innerHTML = `<a href="/#catalogo" class="btn btn-lime btn-block" data-act="close">Explorar catálogo<span class="arrow">${icon("arrow")}</span></a>`;
       return;
     }
@@ -327,6 +329,7 @@
       const res = await r.json();
       if (!r.ok) throw new Error(res.error || "No se pudo enviar");
       lastResult = res;
+      remember({ code: res.code, key: res.key, at: Date.now(), total: res.totals?.total });
       notifyByNetlifyForm(res, data).catch(() => {});
       state.items = []; emit(); step = 3;
     } catch (e) {
@@ -348,6 +351,18 @@
     });
     await fetch("/", { method: "POST", headers: { "content-type": "application/x-www-form-urlencoded" }, body });
   }
+
+  // Cotizaciones recordadas en este navegador
+  const MINE = "camhouse_quotes_v1";
+  const mine = () => { try { return JSON.parse(localStorage.getItem(MINE)) || []; } catch { return []; } };
+  function remember(q) { try { const l = mine().filter((x) => x.code !== q.code); l.unshift(q); localStorage.setItem(MINE, JSON.stringify(l.slice(0, 20))); } catch {} }
+  const myQuotesHtml = () => {
+    const l = mine();
+    if (!l.length) return "";
+    return `<div class="panel" style="margin:18px 0 0;padding:16px"><h3>Mis cotizaciones</h3>
+      ${l.map((q) => `<a class="line-item" style="grid-template-columns:1fr auto;margin-bottom:8px" href="/cotizacion.html?c=${encodeURIComponent(q.code)}&k=${encodeURIComponent(q.key)}"><div><h4>${esc(q.code)}</h4><div class="meta">${new Date(q.at).toLocaleDateString("es-SV")}${q.total ? " · " + money2(q.total) : ""}</div></div><span class="link-btn" style="font-size:13px;text-decoration:underline">Ver estado</span></a>`).join("")}
+      <p class="note" style="margin:6px 0 0">¿Cotizó desde otro dispositivo? <a href="/cotizacion.html" style="text-decoration:underline">Recupere su enlace</a>.</p></div>`;
+  };
 
   function openDrawer() {
     document.getElementById("toast")?.classList.remove("show");
@@ -473,6 +488,6 @@
     toast(`Agregado: ${p.name.length > 38 ? p.name.slice(0, 38) + "…" : p.name}`);
   });
 
-  window.CH = { icon, money, money2, esc, api, cart, productCard, fmtDate, CAT_ICON, toast, openDrawer, todayISO };
+  window.CH = { icon, money, money2, esc, api, cart, productCard, fmtDate, CAT_ICON, toast, openDrawer, todayISO, remember };
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", mount) : mount();
 })();
