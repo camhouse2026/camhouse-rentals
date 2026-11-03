@@ -90,7 +90,7 @@ export default async (req) => {
     };
     q.estimate = computeTotals(q);
     await saveQuote(q);
-    mailQuoteCreated(q, quoteLink(req, q), settings).catch(() => {});
+    await mailQuoteCreated(q, quoteLink(req, q), settings).catch(() => {});
     return json({ code: q.code, key: q.key, totals: q.estimate }, 201);
   }
 
@@ -101,7 +101,7 @@ export default async (req) => {
     if (!/^\S+@\S+\.\S+$/.test(email)) return json({ error: "Escriba un correo válido." }, 400);
     const settings = await getSettings();
     const all = (await listQuotes()).filter((q) => q.client.email.toLowerCase() === email).slice(0, 10);
-    if (all.length) mailFind(email, all, siteUrl(req), settings).catch(() => {});
+    if (all.length) await mailFind(email, all, siteUrl(req), settings).catch(() => {});
     return json({ ok: true });
   }
 
@@ -131,7 +131,7 @@ export default async (req) => {
       };
       q.history.push({ at: q.signature.signedAt, text: `Pagaré firmado electrónicamente por ${name} por $${amount.toFixed(2)}` });
       await saveQuote(q);
-      mailSigned(q, quoteLink(req, q), settings).catch(() => {});
+      await mailSigned(q, quoteLink(req, q), settings).catch(() => {});
       return json(publicQuote(q));
     }
 
@@ -146,7 +146,7 @@ export default async (req) => {
         q.status = t.balance <= 0.009 ? "pagada" : "anticipo_pagado";
         q.history.push({ at: p.paidAt, text: `Pago simulado recibido: $${round2(p.amount).toFixed(2)} (${p.label})` });
         await saveQuote(q);
-        mailPaid(q, p, quoteLink(req, q), await getSettings()).catch(() => {});
+        await mailPaid(q, p, quoteLink(req, q), await getSettings()).catch(() => {});
       }
       return json(publicQuote(q));
     }

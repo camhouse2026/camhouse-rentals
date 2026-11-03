@@ -48,7 +48,7 @@ export default async (req) => {
   await saveQuote(q);
   if (approved && p.paidAt === now) {
     const site = env("URL") || new URL(req.url).origin;
-    mailPaid(q, p, `${site}/cotizacion.html?c=${encodeURIComponent(q.code)}&k=${encodeURIComponent(q.key)}`, await getSettings()).catch(() => {});
+    await mailPaid(q, p, `${site}/cotizacion.html?c=${encodeURIComponent(q.code)}&k=${encodeURIComponent(q.key)}`, await getSettings()).catch(() => {});
   }
   return json({ ok: true });
 };
