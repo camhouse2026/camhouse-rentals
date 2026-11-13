@@ -93,7 +93,7 @@ export async function mailQuoteUpdate(q, link, settings, message) {
   const first = q.client.name.split(" ")[0];
   const pending = (q.payments || []).filter((x) => x.status === "pendiente");
   const needsSign = !q.signature && pending.length;
-  await sendMail({
+  return await sendMail({
     to: q.client.email, settings, replyTo: settings.email,
     subject: `Cotización ${q.code}: ${STATUS_TEXT[q.status] || q.status} — CamHouse Rentals`,
     html: layout(`Cotización ${q.code} — ${STATUS_TEXT[q.status] || q.status}`, `
