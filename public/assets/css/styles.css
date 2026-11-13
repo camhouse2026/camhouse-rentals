@@ -729,4 +729,8 @@ html, body { overflow-x: hidden; }
   .doc table.items { width: 100% !important; }
   .doc tr, .pagare, .totals, .pay-box, .panel { break-inside: avoid; }
   .doc img, .doc canvas { filter: none !important; }
+  .print-head { display: flex !important; justify-content: space-between; align-items: center; gap: 20px; border-bottom: 1.5px solid #111; padding-bottom: 14px; margin-bottom: 24px; }
+  .print-head img { height: 48px; width: auto; }
+  .print-head div { text-align: right; font-size: 11px; line-height: 1.55; color: #333 !important; }
 }
+.print-head { display: none; }
