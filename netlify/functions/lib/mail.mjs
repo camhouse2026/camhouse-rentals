@@ -95,9 +95,9 @@ export async function mailQuoteUpdate(q, link, settings, message) {
   const needsSign = !q.signature && pending.length;
   return await sendMail({
     to: q.client.email, settings, replyTo: settings.email,
-    subject: `Cotización ${q.code}: ${STATUS_TEXT[q.status] || q.status} — CamHouse Rentals`,
-    html: layout(`Cotización ${q.code} — ${STATUS_TEXT[q.status] || q.status}`, `
-      ${p(`Hola ${esc(first)}, hay novedades en su cotización.`)}
+    subject: `${q.formal ? "Cotización formal" : "Cotización"} ${q.code}: ${STATUS_TEXT[q.status] || q.status} — CamHouse Rentals`,
+    html: layout(`${q.formal ? "Cotización formal" : "Cotización"} ${q.code} — ${STATUS_TEXT[q.status] || q.status}`, `
+      ${p(`Hola ${esc(first)}, ${q.formal ? "le compartimos su cotización formal." : "hay novedades en su cotización."}`)}
       ${message ? p(`<b>Mensaje de CamHouse:</b><br>${esc(message).replace(/\n/g, "<br>")}`) : ""}
       ${quoteTable(q)}
       ${needsSign ? p(`Para habilitar el pago, primero firme el pagaré de garantía desde su enlace.`) : ""}
