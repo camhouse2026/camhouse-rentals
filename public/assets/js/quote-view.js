@@ -33,11 +33,13 @@
     const t = q.totals;
     const pending = (q.payments || []).filter((p) => p.status === "pendiente" && p.url);
     const paid = (q.payments || []).filter((p) => p.status === "pagado");
+    const formal = q.formal || !["nueva", "en_revision", "cancelada"].includes(q.status);
     doc.innerHTML = `
       ${banner}
+      <div class="print-head"><img src="/img/logos/camhouse-script.png" alt="CamHouse Rentals"><div id="printContact">CamHouse Rentals<br>camhouserental.com</div></div>
       <div class="doc-head">
         <div>
-          <span class="eyebrow">Cotización</span>
+          <span class="eyebrow">${formal ? "Cotización formal" : "Pre-cotización"}</span>
           <h1 class="display" style="font-size:44px;margin:8px 0 6px">${esc(q.code)}</h1>
           <span style="color:var(--muted);font-size:14px">${esc(q.client.name)}${q.client.company ? " · " + esc(q.client.company) : ""}</span>
         </div>
@@ -75,7 +77,7 @@
           <a class="btn btn-lime" href="${esc(p.url)}">Pagar con Wompi<span class="arrow">${icon("card")}</span></a>
         </div>`).join("")}
       ${paid.length ? `<div class="panel"><h3>Pagos recibidos</h3><ul class="check-list">${paid.map((p) => `<li>${esc(p.label)} — ${money2(p.amount)} · ${new Date(p.paidAt).toLocaleDateString("es-SV")}</li>`).join("")}</ul></div>` : ""}
-      ${["nueva", "en_revision"].includes(q.status) ? `<p class="note" style="margin-top:22px">Los precios mostrados son un estimado. CamHouse confirmará el monto final antes de habilitar el pago.</p>` : ""}
+      ${!formal ? `<p class="note" style="margin-top:22px">Los precios mostrados son un estimado. CamHouse confirmará el monto final antes de habilitar el pago.</p>` : ""}
       <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:28px">
         <p class="note" id="terms" style="max-width:520px;margin:0"></p>
         <div style="display:flex;gap:8px;flex-wrap:wrap">
@@ -85,6 +87,12 @@
       </div>`;
     api.settings().then((st) => {
       const el = document.getElementById("terms"); if (el) el.textContent = st.quoteTerms || "";
+      const pc = document.getElementById("printContact");
+      if (pc) {
+        const w = String(st.whatsapp || "").replace(/\D/g, "");
+        const tel = w.length === 11 && w.startsWith("503") ? `+503 ${w.slice(3, 7)}-${w.slice(7)}` : (w ? "+" + w : "");
+        pc.innerHTML = ["Renta de equipo audiovisual", "camhouserental.com", st.email, tel, st.address].filter(Boolean).map(esc).join("<br>");
+      }
       const wa = document.getElementById("waBtn");
       if (wa) {
         const resumen = `Cotización ${q.code} — CamHouse Rentals\n${q.client.name}${q.client.company ? " · " + q.client.company : ""}\nRetiro ${fmtDate(q.startDate)} → Devolución ${fmtDate(q.endDate)} (${q.days} ${q.days === 1 ? "día" : "días"})\n` +
