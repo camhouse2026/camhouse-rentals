@@ -656,11 +656,6 @@ body.dark .pagare pre { color: #d8d8d8; }
 body.dark .sig-pad { background: #f4f4f4; border-color: #666; }
 body.dark .sig-done img { background: #f4f4f4; border-radius: 8px; padding: 6px; border-bottom-color: #fff; }
 body.dark .link-btn { color: #f2f2f2; }
-@media print {
-  body.dark, body.dark .doc, body.dark .pagare, body.dark .panel { background: #fff !important; color: #111 !important; border-color: #ccc !important; }
-  body.dark .display, body.dark h1, body.dark h3, body.dark .pagare pre, body.dark .summary-row, body.dark .summary-row.total { color: #111 !important; }
-}
-
 /* ---------- Ajustes responsive ---------- */
 .picks, .picks-track, .product, .product > *, .gallery-main, .thumbs, .panel, .video-wrap, .doc, .cat-block, .grid, .card, .container { min-width: 0; }
 .picks-track { max-width: 100%; }
@@ -708,4 +703,30 @@ html, body { overflow-x: hidden; }
   .brands span { font-size: 16px; }
   .footer-grid { gap: 22px; }
   .site-footer { padding: 40px 0 24px; }
+}
+
+/* ---------- Impresión / PDF de la cotización ---------- */
+@media print {
+  @page { margin: 14mm; }
+  html, body, body.dark { background: #fff !important; color: #111 !important; overflow: visible !important; }
+  body.dark {
+    --bg: #fff; --surface: #fff; --surface-2: #f6f6f6; --lav-1: #e9e9e9; --lav-2: #cfcfcf;
+    --muted: #555; --line: #d0d0d0; --ink: #111; --shadow: none;
+  }
+  .site-header, .site-footer, #app-header, #app-footer, .side-rail, .overlay, .drawer, .toast,
+  #waBtn, #printBtn, .pay-box .btn, .sig-actions, [data-open-cart],
+  #nl-badge-frame, iframe[src*="netlify"], [id^="nl-"], [class*="netlify-badge"] { display: none !important; }
+  main.container, .container { max-width: none !important; width: auto !important; padding: 0 !important; margin: 0 !important; }
+  body.dark .doc, .doc { background: #fff !important; color: #111 !important; border: 0 !important; box-shadow: none !important; margin: 0 !important; padding: 0 !important; max-width: none !important; }
+  body.dark .doc *, .doc * { color: #111 !important; box-shadow: none !important; text-shadow: none !important; }
+  body.dark .doc .eyebrow, body.dark .doc .note, body.dark .doc [style*="--muted"], .doc .eyebrow, .doc .note { color: #555 !important; }
+  body.dark .doc .panel, body.dark .doc .pagare, body.dark .doc .alert, body.dark .doc .pay-box, body.dark .doc .status, body.dark .doc .badge {
+    background: #fff !important; border: 1px solid #bbb !important;
+  }
+  body.dark .doc table.items th, body.dark .doc table.items td { border-color: #bbb !important; }
+  body.dark .doc .summary-row.total { border-top-color: #111 !important; }
+  .doc div[style*="overflow-x"] { overflow: visible !important; }
+  .doc table.items { width: 100% !important; }
+  .doc tr, .pagare, .totals, .pay-box, .panel { break-inside: avoid; }
+  .doc img, .doc canvas { filter: none !important; }
 }
