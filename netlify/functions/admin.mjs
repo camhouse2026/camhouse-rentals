@@ -138,6 +138,7 @@ export default async (req) => {
       if (b.status && STATUSES.includes(b.status) && b.status !== q.status) {
         q.history.push({ at: now, text: `Estado cambiado a "${b.status}"` });
         q.status = b.status;
+        if (!["nueva", "en_revision", "cancelada"].includes(b.status)) q.formal = true;
       } else {
         q.history.push({ at: now, text: "Cotización actualizada por CamHouse" });
       }
@@ -163,6 +164,7 @@ export default async (req) => {
         q.payments.push({ id: `P${n}`, reference, label, amount, status: "pendiente", url: link.url, idEnlace: link.idEnlace, mock: link.mock, createdAt: now });
         if (["nueva", "en_revision", "confirmada"].includes(q.status)) q.status = "pago_pendiente";
         q.history.push({ at: now, text: `Enlace de pago generado: $${amount.toFixed(2)} (${label})${link.mock ? " — modo prueba" : ""}` });
+        q.formal = true;
         if (mailConfigured() && b.notify !== false) {
           const r = await mailQuoteUpdate(q, `${siteUrl(req)}/cotizacion.html?c=${q.code}&k=${q.key}`, settings, q.clientMessage || "");
           if (r.ok) q.history.push({ at: now, text: `Correo con enlace de pago enviado a ${q.client.email}` });
@@ -179,6 +181,7 @@ export default async (req) => {
       const b = await req.json().catch(() => ({}));
       const settings = await getSettings();
       const link = `${siteUrl(req)}/cotizacion.html?c=${q.code}&k=${q.key}`;
+      q.formal = true;
       const r = await mailQuoteUpdate(q, link, settings, String(b.message || q.clientMessage || ""));
       if (!r.ok) return json({ error: "No se pudo enviar el correo. Revise la clave de Brevo y el remitente verificado." }, 502);
       q.history.push({ at: now, text: `Correo enviado al cliente (${q.client.email})` });
